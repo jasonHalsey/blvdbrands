@@ -1,0 +1,123 @@
+/* ============================================================
+  SECTIONS
+============================================================ */
+section.module:last-child {
+  margin-bottom: 0;
+}
+section.module h2 {
+  margin-bottom: 40px;
+  font-family: "Roboto Slab", serif;
+  font-size: 30px;
+}
+section.module p {
+  margin-bottom: 40px;
+  font-size: 16px;
+  font-weight: 300;
+}
+section.module p:last-child {
+  margin-bottom: 0;
+}
+section.module.content {
+  padding: 40px 75px;
+  background-color: #000;
+  color:#fff;
+}
+section.module{
+  // height:500px;
+  overflow: hidden;
+}
+section.module.content2 {
+  padding: 0;
+}
+section.module.parallax {
+  height: 600px;
+  background-position: 50% 50%;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+section.module.parallax h1 {
+  color: rgba(255, 255, 255, 0.8);
+  font-size: 48px;
+  line-height: 600px;
+  font-weight: 700;
+  text-align: center;
+  text-transform: uppercase;
+  text-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+}
+section.module.parallax-1 {
+  background-image: url("images/brand/Kellan_Main.jpg");
+}
+section.module.parallax-2 {
+  background-image: url("images/brand/Brooke_Main.jpg");
+}
+section.module.parallax-3 {
+  background-image: url("images/brand/ONE_BXWD_main.jpg");
+}
+
+div.container{
+  width:100%;
+  height: auto;
+  margin: 0 auto;
+  text-align: center;
+  img{
+    margin: 0 auto;
+
+  }
+}
+
+.shadowed {
+  -webkit-filter: drop-shadow(4px 4px 2px rgba(0,0,0,0.7));
+  filter: url(shadow.svg#drop-shadow);
+  -ms-filter: "progid:DXImageTransform.Microsoft.Dropshadow(OffX=6, OffY=6, Color='#444')";
+  filter: "progid:DXImageTransform.Microsoft.Dropshadow(OffX=6, OffY=6, Color='#444')";
+}
+
+
+section.module_brand.content_brand {
+  background-color: #fff;
+  color:#000;
+  margin-bottom: 0;
+
+}
+
+section.module.parallax_brand {
+  height: 900px;
+  background-position: 50% 50%;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
+div.abbot_top{
+  p{
+    margin-bottom: 0;
+    padding: 0.5em 2.0em 0.5em;
+  }
+  p:last-child {
+    padding: 0.5em 2.0em 2.0em;
+  }
+}
+
+@media all and (min-width: 600px) {
+  section.module h2 {
+    font-size: 42px;
+  }
+  section.module p {
+    font-size: 20px;
+  }
+  section.module.parallax h1 {
+    font-size: 96px;
+  }
+}
+@media all and (min-width: 960px) {
+  section.module.parallax h1 {
+    font-size: 160px;
+  }
+}

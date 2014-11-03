@@ -3,3 +3,10 @@
 @import "bourbon/bourbon";
 @import "neat/neat";
 @import "base/base";
+
+@import "_partials/sticky-header";
+@import "_partials/navigation";
+@import "_partials/footer";
+@import "_partials/parallax";
+@import "_partials/header";
+@import "_partials/common";
