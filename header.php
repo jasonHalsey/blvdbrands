@@ -2,6 +2,7 @@
 /*
  * @package WordPress
  * @subpackage blvd
+
  */
 ?><!DOCTYPE html>
 <!--[if IE 7]>
@@ -25,6 +26,7 @@
 	<?php wp_head(); ?>
 </head>
 
+<div class="wrapper-for-content-outside-of-footer">
 <body <?php body_class(); ?>>
 
 

@@ -21,7 +21,7 @@ get_header(); ?>
       </section>
 
 
-      <section class="module parallax parallax-2 tinted">
+      <section class="module parallax parallax-2">
         <div class="container">
           <a href="http://cnn.com"><img src="<?php bloginfo('template_directory'); ?>/images/brand/caelum.svg" class="shadowed" id="drop-shadow"/></a>
         </div>
