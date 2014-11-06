@@ -43,11 +43,10 @@
 			</div>
 		</footer><!-- #colophon -->
 	</div><!-- #page -->
-	<div class="push"></div>
+	
 
 
 	<?php wp_footer(); ?>
 </body>
-</div><!-- #sticky-footer -->
 </html>
 

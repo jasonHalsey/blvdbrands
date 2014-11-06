@@ -1081,6 +1081,11 @@ div.container img {
 }
 
 /* line 72, sass/_partials/_parallax.scss */
+.tinted {
+  opacity: 0.8;
+}
+
+/* line 74, sass/_partials/_parallax.scss */
 .shadowed {
   -webkit-filter: drop-shadow(4px 4px 2px rgba(0, 0, 0, 0.7));
   filter: url(shadow.svg#drop-shadow);
@@ -1088,14 +1093,14 @@ div.container img {
   filter: "progid:DXImageTransform.Microsoft.Dropshadow(OffX=6, OffY=6, Color='#444')";
 }
 
-/* line 80, sass/_partials/_parallax.scss */
+/* line 82, sass/_partials/_parallax.scss */
 section.module_brand.content_brand {
   background-color: #fff;
   color: #000;
   margin-bottom: 0;
 }
 
-/* line 87, sass/_partials/_parallax.scss */
+/* line 89, sass/_partials/_parallax.scss */
 section.module.parallax_brand {
   height: 900px;
   background-position: 50% 50%;
@@ -1107,34 +1112,34 @@ section.module.parallax_brand {
   background-size: cover;
 }
 
-/* line 99, sass/_partials/_parallax.scss */
+/* line 101, sass/_partials/_parallax.scss */
 div.abbot_top p {
   margin-bottom: 0;
   padding: 0.5em 2.0em 0.5em;
 }
-/* line 103, sass/_partials/_parallax.scss */
+/* line 105, sass/_partials/_parallax.scss */
 div.abbot_top p:last-child {
   padding: 0.5em 2.0em 2.0em;
 }
 
 @media all and (min-width: 600px) {
-  /* line 109, sass/_partials/_parallax.scss */
+  /* line 111, sass/_partials/_parallax.scss */
   section.module h2 {
     font-size: 42px;
   }
 
-  /* line 112, sass/_partials/_parallax.scss */
+  /* line 114, sass/_partials/_parallax.scss */
   section.module p {
     font-size: 20px;
   }
 
-  /* line 115, sass/_partials/_parallax.scss */
+  /* line 117, sass/_partials/_parallax.scss */
   section.module.parallax h1 {
     font-size: 96px;
   }
 }
 @media all and (min-width: 960px) {
-  /* line 120, sass/_partials/_parallax.scss */
+  /* line 122, sass/_partials/_parallax.scss */
   section.module.parallax h1 {
     font-size: 160px;
   }
@@ -1149,28 +1154,44 @@ body {
 
 /* line 10, sass/_partials/_header.scss */
 header #logo_box {
-  width: 30%;
-  position: absolute;
-  padding: 1.5em 1.0em;
-  background-color: #222222;
-  left: 50%;
-  margin-left: -15%;
-  -webkit-box-shadow: 0px 6px 14px -2px rgba(0, 0, 0, 0.75);
-  -moz-box-shadow: 0px 6px 14px -2px rgba(0, 0, 0, 0.75);
-  box-shadow: 0px 6px 14px -2px rgba(0, 0, 0, 0.75);
+  float: left;
+  display: block;
+  margin-right: 2.35765%;
+  width: 23.23176%;
+  padding: 1.5em;
 }
-/* line 20, sass/_partials/_header.scss */
+/* line 85, sass/neat/grid/_span-columns.scss */
+header #logo_box:last-child {
+  margin-right: 0;
+}
+/* line 13, sass/_partials/_header.scss */
 header #logo_box img {
   width: 100%;
   height: auto;
 }
+/* line 18, sass/_partials/_header.scss */
+header .navigation-wrapper {
+  float: left;
+  display: block;
+  margin-right: 2.35765%;
+  width: 74.41059%;
+}
+/* line 85, sass/neat/grid/_span-columns.scss */
+header .navigation-wrapper:last-child {
+  margin-right: 0;
+}
 
 /* line 1, sass/_partials/_common.scss */
+body {
+  background-color: #000000;
+}
+
+/* line 4, sass/_partials/_common.scss */
 .right {
   float: right;
 }
 
-/* line 2, sass/_partials/_common.scss */
+/* line 5, sass/_partials/_common.scss */
 .left {
   float: left;
 }
