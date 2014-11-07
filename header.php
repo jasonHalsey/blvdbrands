@@ -33,11 +33,11 @@
 <!--#########################################################################################################-->
 
 <header class="navigation ">
-  <div id="logo_box">
-    <a href="<?php bloginfo('url');?>"><img src="<?php bloginfo('template_directory'); ?>/images/blvd_brands_logo.png" /></a>
-  </div>
+  
   <div class="navigation-wrapper ">
-   
+   	<div id="logo_box">
+    	<a href="<?php bloginfo('url');?>"><img src="<?php bloginfo('template_directory'); ?>/images/blvd_brands_logo.png" /></a>
+  	</div>
     <a href="" class="navigation-menu-button" id="js-mobile-menu">MENU</a>
     <div class="nav">
       <?php wp_nav_menu( array( 'theme_location' => 'primary', 'menu_class' => 'nav-menu' ) ); ?>
