@@ -405,6 +405,7 @@ input[type="submit"] {
 
 /* line 3, sass/_partials/_navigation.scss */
 header.navigation {
+  margin-top: 20px;
   background-color: rgba(0, 0, 0, 0.6);
   border-bottom: 1px solid #1a1a1a;
   width: 100%;
@@ -1080,7 +1081,7 @@ div.home_container {
 }
 /* line 69, sass/_partials/_parallax.scss */
 div.home_container img {
-  margin: 0 auto;
+  margin: 50px auto 0;
 }
 
 /* line 75, sass/_partials/_parallax.scss */
