@@ -53,11 +53,20 @@ section.module.parallax h1 {
 section.module.parallax-1 {
   background-image: url("images/brand/Kellan_Main.jpg");
 }
+section.module.parallax-1-am {
+  background-image: url("images/brand/am_brand_scroll.jpg");
+}
 section.module.parallax-2 {
   background-image: url("images/brand/Brooke_Main.jpg");
 }
 section.module.parallax-3 {
   background-image: url("images/brand/ONE_BXWD_main.jpg");
+}
+section.module.parallax-4 {
+  background-image: url("images/brand/pasion_main.jpg");
+}
+section.module.parallax-4-pt {
+  background-image: url("images/brand/pasion_scroll.jpg");
 }
 
 div.home_container{
@@ -67,8 +76,14 @@ div.home_container{
   margin: 0 auto;
   text-align: center;
   img{
-    margin: 0 auto;
+    margin: 50px auto 0;
+  }
+}
 
+div.home_container_onebxwd{
+  @extend div.home_container;
+  img{
+    margin: 0px auto 0;
   }
 }
 
@@ -79,6 +94,8 @@ div.container{
   text-align: center;
   img{
     margin: 0 auto;
+    width:100%;
+    height:auto;
 
   }
 }

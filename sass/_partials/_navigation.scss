@@ -15,11 +15,10 @@ header.navigation {
   $navigation-submenu-padding: 1em;
   $navigation-submenu-width: 12em;
   $horizontal-bar-mode: $large-screen;
-
-  // background-color: $navigation-background;
+  margin-top: 20px; 
+  @include clearfix;
   background-color:rgba(0,0,0,0.6);
   border-bottom: 1px solid darken($navigation-background, 10);
-
   width: 100%;
   z-index: 999;
   position: fixed;

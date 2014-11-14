@@ -13,8 +13,7 @@ get_header(); ?>
 			<div class="container abbot_top">
 				<img src="<?php bloginfo('template_directory'); ?>/images/brand/onebxwd_static.jpg" /></a>
 				<div class="brand-content-wrapper">
-					<p>In 2012, Abbot + Main was founded with a fundamental premise: create a collection of wardrobe essentials for men and women focusing on soft-handed fabrications and thoughtful design elements.</p>
-		          	<p>Our story began in Los Angeles, with a combined vision between actor Kellan Lutz and fashion mogul Daniel Guez, to create an iconic brand using the laid-back spirit of the Southern California beach scene, particularly Venice Beach, where Abbot Kinney and Main Street collide.</p>
+					<p>Inspired by elements of the 1990s Los Angeles street wear style with its modern well thought out fabrications conducive for todays active individual.</p>
 	         	 </div>
 			</div>
 		</section>
@@ -28,8 +27,7 @@ get_header(); ?>
 	      <section class="module_brand content_brand">
 	        <div class="container abbot_top">
 	        	<div class="brand-content-wrapper">
-		          <p>In 2012, Abbot + Main was founded with a fundamental premise: create a collection of wardrobe essentials for men and women focusing on soft-handed fabrications and thoughtful design elements.</p>
-		          <p>Our story began in Los Angeles, with a combined vision between actor Kellan Lutz and fashion mogul Daniel Guez, to create an iconic brand using the laid-back spirit of the Southern California beach scene, particularly Venice Beach, where Abbot Kinney and Main Street collide.</p>
+		          <p> ONE BXWD’s main purpose is to bring an innovative and comfortable wardrobe to the boundless cross generational male. Using a refined approach by combining performance fabrics with a polished sportswear mind set.</p>
 	          </div>
 	        </div>
 	      </section>

@@ -1,5 +1,5 @@
 @charset "UTF-8";
-/* line 5, ../../../../../../../Users/jasonhalsey/.rvm/gems/ruby-1.9.3-p484/gems/compass-core-1.0.1/stylesheets/compass/reset/_utilities.scss */
+/* line 5, ../../../../../../../Users/jason/.rvm/gems/ruby-2.1.2/gems/compass-core-1.0.1/stylesheets/compass/reset/_utilities.scss */
 html, body, div, span, applet, object, iframe,
 h1, h2, h3, h4, h5, h6, p, blockquote, pre,
 a, abbr, acronym, address, big, cite, code,
@@ -21,45 +21,45 @@ time, mark, audio, video {
   vertical-align: baseline;
 }
 
-/* line 22, ../../../../../../../Users/jasonhalsey/.rvm/gems/ruby-1.9.3-p484/gems/compass-core-1.0.1/stylesheets/compass/reset/_utilities.scss */
+/* line 22, ../../../../../../../Users/jason/.rvm/gems/ruby-2.1.2/gems/compass-core-1.0.1/stylesheets/compass/reset/_utilities.scss */
 html {
   line-height: 1;
 }
 
-/* line 24, ../../../../../../../Users/jasonhalsey/.rvm/gems/ruby-1.9.3-p484/gems/compass-core-1.0.1/stylesheets/compass/reset/_utilities.scss */
+/* line 24, ../../../../../../../Users/jason/.rvm/gems/ruby-2.1.2/gems/compass-core-1.0.1/stylesheets/compass/reset/_utilities.scss */
 ol, ul {
   list-style: none;
 }
 
-/* line 26, ../../../../../../../Users/jasonhalsey/.rvm/gems/ruby-1.9.3-p484/gems/compass-core-1.0.1/stylesheets/compass/reset/_utilities.scss */
+/* line 26, ../../../../../../../Users/jason/.rvm/gems/ruby-2.1.2/gems/compass-core-1.0.1/stylesheets/compass/reset/_utilities.scss */
 table {
   border-collapse: collapse;
   border-spacing: 0;
 }
 
-/* line 28, ../../../../../../../Users/jasonhalsey/.rvm/gems/ruby-1.9.3-p484/gems/compass-core-1.0.1/stylesheets/compass/reset/_utilities.scss */
+/* line 28, ../../../../../../../Users/jason/.rvm/gems/ruby-2.1.2/gems/compass-core-1.0.1/stylesheets/compass/reset/_utilities.scss */
 caption, th, td {
   text-align: left;
   font-weight: normal;
   vertical-align: middle;
 }
 
-/* line 30, ../../../../../../../Users/jasonhalsey/.rvm/gems/ruby-1.9.3-p484/gems/compass-core-1.0.1/stylesheets/compass/reset/_utilities.scss */
+/* line 30, ../../../../../../../Users/jason/.rvm/gems/ruby-2.1.2/gems/compass-core-1.0.1/stylesheets/compass/reset/_utilities.scss */
 q, blockquote {
   quotes: none;
 }
-/* line 103, ../../../../../../../Users/jasonhalsey/.rvm/gems/ruby-1.9.3-p484/gems/compass-core-1.0.1/stylesheets/compass/reset/_utilities.scss */
+/* line 103, ../../../../../../../Users/jason/.rvm/gems/ruby-2.1.2/gems/compass-core-1.0.1/stylesheets/compass/reset/_utilities.scss */
 q:before, q:after, blockquote:before, blockquote:after {
   content: "";
   content: none;
 }
 
-/* line 32, ../../../../../../../Users/jasonhalsey/.rvm/gems/ruby-1.9.3-p484/gems/compass-core-1.0.1/stylesheets/compass/reset/_utilities.scss */
+/* line 32, ../../../../../../../Users/jason/.rvm/gems/ruby-2.1.2/gems/compass-core-1.0.1/stylesheets/compass/reset/_utilities.scss */
 a img {
   border: none;
 }
 
-/* line 116, ../../../../../../../Users/jasonhalsey/.rvm/gems/ruby-1.9.3-p484/gems/compass-core-1.0.1/stylesheets/compass/reset/_utilities.scss */
+/* line 116, ../../../../../../../Users/jason/.rvm/gems/ruby-2.1.2/gems/compass-core-1.0.1/stylesheets/compass/reset/_utilities.scss */
 article, aside, details, figcaption, figure, footer, header, hgroup, main, menu, nav, section, summary {
   display: block;
 }
@@ -405,13 +405,20 @@ input[type="submit"] {
 
 /* line 3, sass/_partials/_navigation.scss */
 header.navigation {
+  margin-top: 20px;
   background-color: rgba(0, 0, 0, 0.6);
   border-bottom: 1px solid #1a1a1a;
   width: 100%;
   z-index: 999;
   position: fixed;
 }
-/* line 27, sass/_partials/_navigation.scss */
+/* line 15, sass/bourbon/addons/_clearfix.scss */
+header.navigation:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+/* line 26, sass/_partials/_navigation.scss */
 header.navigation .navigation-wrapper {
   width: 100%;
   position: relative;
@@ -423,19 +430,19 @@ header.navigation .navigation-wrapper:after {
   display: table;
   clear: both;
 }
-/* line 34, sass/_partials/_navigation.scss */
+/* line 33, sass/_partials/_navigation.scss */
 header.navigation .logo {
   float: left;
   max-height: 60px;
   padding-left: 1em;
   padding-right: 2em;
 }
-/* line 40, sass/_partials/_navigation.scss */
+/* line 39, sass/_partials/_navigation.scss */
 header.navigation .logo img {
   max-height: 60px;
   padding: 0.8em 0;
 }
-/* line 48, sass/_partials/_navigation.scss */
+/* line 47, sass/_partials/_navigation.scss */
 header.navigation .navigation-menu-button {
   color: white;
   display: block;
@@ -448,16 +455,16 @@ header.navigation .navigation-menu-button {
   text-transform: uppercase;
 }
 @media screen and (min-width: 53.75em) {
-  /* line 48, sass/_partials/_navigation.scss */
+  /* line 47, sass/_partials/_navigation.scss */
   header.navigation .navigation-menu-button {
     display: none;
   }
 }
-/* line 63, sass/_partials/_navigation.scss */
+/* line 62, sass/_partials/_navigation.scss */
 header.navigation .navigation-menu-button:hover {
   color: rgba(255, 255, 255, 0.7);
 }
-/* line 70, sass/_partials/_navigation.scss */
+/* line 69, sass/_partials/_navigation.scss */
 header.navigation .nav {
   z-index: 9999999;
   float: none;
@@ -473,12 +480,12 @@ header.navigation .nav:last-child {
   margin-right: 0;
 }
 @media screen and (min-width: 53.75em) {
-  /* line 70, sass/_partials/_navigation.scss */
+  /* line 69, sass/_partials/_navigation.scss */
   header.navigation .nav {
     float: left;
   }
 }
-/* line 81, sass/_partials/_navigation.scss */
+/* line 80, sass/_partials/_navigation.scss */
 header.navigation ul#menu-primary {
   -webkit-transform-style: preserve-3d;
   clear: both;
@@ -490,14 +497,14 @@ header.navigation ul#menu-primary {
   z-index: 9999;
 }
 @media screen and (min-width: 53.75em) {
-  /* line 81, sass/_partials/_navigation.scss */
+  /* line 80, sass/_partials/_navigation.scss */
   header.navigation ul#menu-primary {
     display: inline;
     margin: 0;
     padding: 0;
   }
 }
-/* line 100, sass/_partials/_navigation.scss */
+/* line 99, sass/_partials/_navigation.scss */
 header.navigation ul li.nav-link {
   background: #333;
   display: block;
@@ -509,7 +516,7 @@ header.navigation ul li.nav-link {
   z-index: 9999;
 }
 @media screen and (min-width: 53.75em) {
-  /* line 100, sass/_partials/_navigation.scss */
+  /* line 99, sass/_partials/_navigation.scss */
   header.navigation ul li.nav-link {
     background: transparent;
     display: inline;
@@ -518,50 +525,50 @@ header.navigation ul li.nav-link {
     width: auto;
   }
 }
-/* line 118, sass/_partials/_navigation.scss */
+/* line 117, sass/_partials/_navigation.scss */
 header.navigation ul li.nav-link a {
   color: white;
   display: inline-block;
   font-weight: 400;
 }
 @media screen and (min-width: 53.75em) {
-  /* line 118, sass/_partials/_navigation.scss */
+  /* line 117, sass/_partials/_navigation.scss */
   header.navigation ul li.nav-link a {
     padding-right: 1em;
   }
 }
-/* line 127, sass/_partials/_navigation.scss */
+/* line 126, sass/_partials/_navigation.scss */
 header.navigation ul li.nav-link a:hover {
   color: rgba(255, 255, 255, 0.7);
 }
-/* line 133, sass/_partials/_navigation.scss */
+/* line 132, sass/_partials/_navigation.scss */
 header.navigation .active-nav-item a {
   border-bottom: 1px solid rgba(255, 255, 255, 0.5);
   padding-bottom: 3px;
 }
-/* line 140, sass/_partials/_navigation.scss */
+/* line 139, sass/_partials/_navigation.scss */
 header.navigation li.more.nav-link {
   padding-right: 0;
 }
 @media screen and (min-width: 53.75em) {
-  /* line 140, sass/_partials/_navigation.scss */
+  /* line 139, sass/_partials/_navigation.scss */
   header.navigation li.more.nav-link {
     padding-right: 1em;
   }
 }
-/* line 147, sass/_partials/_navigation.scss */
+/* line 146, sass/_partials/_navigation.scss */
 header.navigation li.more.nav-link > ul > li:first-child a {
   padding-top: 1em;
 }
-/* line 151, sass/_partials/_navigation.scss */
+/* line 150, sass/_partials/_navigation.scss */
 header.navigation li.more.nav-link a {
   margin-right: 1em;
 }
-/* line 155, sass/_partials/_navigation.scss */
+/* line 154, sass/_partials/_navigation.scss */
 header.navigation li.more.nav-link > a {
   padding-right: 0.6em;
 }
-/* line 159, sass/_partials/_navigation.scss */
+/* line 158, sass/_partials/_navigation.scss */
 header.navigation li.more.nav-link > a:after {
   position: absolute;
   top: auto;
@@ -571,51 +578,51 @@ header.navigation li.more.nav-link > a:after {
   content: '\25BE';
   color: white;
 }
-/* line 166, sass/_partials/_navigation.scss */
+/* line 165, sass/_partials/_navigation.scss */
 header.navigation li.more {
   overflow: visible;
   padding-right: 0;
 }
-/* line 170, sass/_partials/_navigation.scss */
+/* line 169, sass/_partials/_navigation.scss */
 header.navigation li.more a {
   padding-right: .8em;
 }
-/* line 174, sass/_partials/_navigation.scss */
+/* line 173, sass/_partials/_navigation.scss */
 header.navigation li.more > a {
   padding-right: 1.6em;
   position: relative;
 }
 @media screen and (min-width: 53.75em) {
-  /* line 174, sass/_partials/_navigation.scss */
+  /* line 173, sass/_partials/_navigation.scss */
   header.navigation li.more > a {
     margin-right: 1em;
   }
 }
-/* line 182, sass/_partials/_navigation.scss */
+/* line 181, sass/_partials/_navigation.scss */
 header.navigation li.more > a:after {
   content: '›';
   font-size: 1.2em;
   position: absolute;
   right: 0.5em;
 }
-/* line 190, sass/_partials/_navigation.scss */
+/* line 189, sass/_partials/_navigation.scss */
 header.navigation li.more:hover > .sub-menu {
   display: block;
 }
 @media screen and (min-width: 53.75em) {
-  /* line 166, sass/_partials/_navigation.scss */
+  /* line 165, sass/_partials/_navigation.scss */
   header.navigation li.more {
     padding-right: .8em;
     position: relative;
   }
 }
-/* line 200, sass/_partials/_navigation.scss */
+/* line 199, sass/_partials/_navigation.scss */
 header.navigation ul.sub-menu {
   display: none;
   padding-left: 0;
 }
 @media screen and (min-width: 53.75em) {
-  /* line 200, sass/_partials/_navigation.scss */
+  /* line 199, sass/_partials/_navigation.scss */
   header.navigation ul.sub-menu {
     left: -1em;
     position: absolute;
@@ -623,35 +630,35 @@ header.navigation ul.sub-menu {
   }
 }
 @media screen and (min-width: 53.75em) {
-  /* line 210, sass/_partials/_navigation.scss */
+  /* line 209, sass/_partials/_navigation.scss */
   header.navigation ul.sub-menu .sub-menu {
     left: 11.8em;
     top: 0;
   }
 }
-/* line 217, sass/_partials/_navigation.scss */
+/* line 216, sass/_partials/_navigation.scss */
 header.navigation ul.sub-menu li {
   display: block;
   padding-right: 0;
 }
 @media screen and (min-width: 53.75em) {
-  /* line 217, sass/_partials/_navigation.scss */
+  /* line 216, sass/_partials/_navigation.scss */
   header.navigation ul.sub-menu li {
     line-height: 46.15385px;
   }
-  /* line 224, sass/_partials/_navigation.scss */
+  /* line 223, sass/_partials/_navigation.scss */
   header.navigation ul.sub-menu li:first-child > a {
     border-top-left-radius: 3px;
     border-top-right-radius: 3px;
   }
-  /* line 229, sass/_partials/_navigation.scss */
+  /* line 228, sass/_partials/_navigation.scss */
   header.navigation ul.sub-menu li:last-child > a {
     border-bottom-left-radius: 3px;
     border-bottom-right-radius: 3px;
     padding-bottom: .7em;
   }
 }
-/* line 236, sass/_partials/_navigation.scss */
+/* line 235, sass/_partials/_navigation.scss */
 header.navigation ul.sub-menu li a {
   background-color: #2b2b2b;
   display: inline-block;
@@ -659,7 +666,7 @@ header.navigation ul.sub-menu li a {
   width: 100%;
 }
 @media screen and (min-width: 53.75em) {
-  /* line 236, sass/_partials/_navigation.scss */
+  /* line 235, sass/_partials/_navigation.scss */
   header.navigation ul.sub-menu li a {
     background-color: #333;
     padding-left: 1em;
@@ -667,7 +674,7 @@ header.navigation ul.sub-menu li a {
     width: 12em;
   }
 }
-/* line 254, sass/_partials/_navigation.scss */
+/* line 253, sass/_partials/_navigation.scss */
 header.navigation .navigation-tools {
   display: block;
   padding-right: 1em;
@@ -682,14 +689,14 @@ header.navigation .navigation-tools:after {
   clear: both;
 }
 @media screen and (min-width: 53.75em) {
-  /* line 254, sass/_partials/_navigation.scss */
+  /* line 253, sass/_partials/_navigation.scss */
   header.navigation .navigation-tools {
     background: transparent;
     float: right;
     clear: none;
   }
 }
-/* line 269, sass/_partials/_navigation.scss */
+/* line 268, sass/_partials/_navigation.scss */
 header.navigation a.sign-up {
   margin-top: 1.2em;
   float: right;
@@ -706,25 +713,25 @@ header.navigation a.sign-up {
   padding: .4em .5em;
 }
 @media screen and (min-width: 53.75em) {
-  /* line 269, sass/_partials/_navigation.scss */
+  /* line 268, sass/_partials/_navigation.scss */
   header.navigation a.sign-up {
     padding: .5em 1em;
   }
 }
-/* line 286, sass/_partials/_navigation.scss */
+/* line 285, sass/_partials/_navigation.scss */
 header.navigation a.sign-up:hover {
   background: #6f99d5;
 }
-/* line 293, sass/_partials/_navigation.scss */
+/* line 292, sass/_partials/_navigation.scss */
 header.navigation .search-bar {
   padding: .85em .6em;
   float: left;
 }
-/* line 300, sass/_partials/_navigation.scss */
+/* line 299, sass/_partials/_navigation.scss */
 header.navigation .search-bar .search-and-submit {
   position: relative;
 }
-/* line 303, sass/_partials/_navigation.scss */
+/* line 302, sass/_partials/_navigation.scss */
 header.navigation .search-bar .search-and-submit input[type=search] {
   background: #404040;
   border: 1px solid #262626;
@@ -736,12 +743,12 @@ header.navigation .search-bar .search-and-submit input[type=search] {
   margin: 0;
 }
 @media screen and (min-width: 53.75em) {
-  /* line 303, sass/_partials/_navigation.scss */
+  /* line 302, sass/_partials/_navigation.scss */
   header.navigation .search-bar .search-and-submit input[type=search] {
     width: 100%;
   }
 }
-/* line 318, sass/_partials/_navigation.scss */
+/* line 317, sass/_partials/_navigation.scss */
 header.navigation .search-bar .search-and-submit button[type=submit] {
   border: 1px solid #363636;
   border-radius: 3px;
@@ -810,19 +817,19 @@ header.navigation .search-bar .search-and-submit button[type=submit]:disabled {
   opacity: 0.5;
   cursor: not-allowed;
 }
-/* line 328, sass/_partials/_navigation.scss */
+/* line 327, sass/_partials/_navigation.scss */
 header.navigation .search-bar .search-and-submit button[type=submit] img {
   height: 12px;
   opacity: .7;
 }
 @media screen and (min-width: 53.75em) {
-  /* line 293, sass/_partials/_navigation.scss */
+  /* line 292, sass/_partials/_navigation.scss */
   header.navigation .search-bar {
     width: 16em;
     position: relative;
     display: inline-block;
   }
-  /* line 340, sass/_partials/_navigation.scss */
+  /* line 339, sass/_partials/_navigation.scss */
   header.navigation .search-bar input {
     -webkit-box-sizing: border-box;
     -moz-box-sizing: border-box;
@@ -831,7 +838,7 @@ header.navigation .search-bar .search-and-submit button[type=submit] img {
   }
 }
 
-/* line 351, sass/_partials/_navigation.scss */
+/* line 350, sass/_partials/_navigation.scss */
 .effect6 {
   position: relative;
   -webkit-box-shadow: 0 1px 4px rgba(0, 0, 0, 0.3), 0 0 40px rgba(0, 0, 0, 0.1) inset;
@@ -839,7 +846,7 @@ header.navigation .search-bar .search-and-submit button[type=submit] img {
   box-shadow: 0 1px 4px rgba(0, 0, 0, 0.3), 0 0 40px rgba(0, 0, 0, 0.1) inset;
 }
 
-/* line 357, sass/_partials/_navigation.scss */
+/* line 356, sass/_partials/_navigation.scss */
 .effect6:before, .effect6:after {
   content: "";
   position: absolute;
@@ -1061,41 +1068,63 @@ section.module.parallax-1 {
 }
 
 /* line 56, sass/_partials/_parallax.scss */
+section.module.parallax-1-am {
+  background-image: url("images/brand/am_brand_scroll.jpg");
+}
+
+/* line 59, sass/_partials/_parallax.scss */
 section.module.parallax-2 {
   background-image: url("images/brand/Brooke_Main.jpg");
 }
 
-/* line 59, sass/_partials/_parallax.scss */
+/* line 62, sass/_partials/_parallax.scss */
 section.module.parallax-3 {
   background-image: url("images/brand/ONE_BXWD_main.jpg");
 }
 
-/* line 63, sass/_partials/_parallax.scss */
-div.home_container {
+/* line 65, sass/_partials/_parallax.scss */
+section.module.parallax-4 {
+  background-image: url("images/brand/pasion_main.jpg");
+}
+
+/* line 68, sass/_partials/_parallax.scss */
+section.module.parallax-4-pt {
+  background-image: url("images/brand/pasion_scroll.jpg");
+}
+
+/* line 72, sass/_partials/_parallax.scss */
+div.home_container, div.home_container_onebxwd {
   width: 100%;
   height: 100%;
   background-color: rgba(0, 0, 0, 0.4);
   margin: 0 auto;
   text-align: center;
 }
-/* line 69, sass/_partials/_parallax.scss */
-div.home_container img {
-  margin: 0 auto;
+/* line 78, sass/_partials/_parallax.scss */
+div.home_container img, div.home_container_onebxwd img {
+  margin: 50px auto 0;
 }
 
-/* line 75, sass/_partials/_parallax.scss */
+/* line 85, sass/_partials/_parallax.scss */
+div.home_container_onebxwd img {
+  margin: 0px auto 0;
+}
+
+/* line 90, sass/_partials/_parallax.scss */
 div.container {
   width: 100%;
   height: 100%;
   margin: 0 auto;
   text-align: center;
 }
-/* line 80, sass/_partials/_parallax.scss */
+/* line 95, sass/_partials/_parallax.scss */
 div.container img {
   margin: 0 auto;
+  width: 100%;
+  height: auto;
 }
 
-/* line 86, sass/_partials/_parallax.scss */
+/* line 103, sass/_partials/_parallax.scss */
 div.empty_container {
   width: 100%;
   height: auto;
@@ -1104,12 +1133,12 @@ div.empty_container {
   margin: 0 auto;
   text-align: center;
 }
-/* line 93, sass/_partials/_parallax.scss */
+/* line 110, sass/_partials/_parallax.scss */
 div.empty_container img {
   margin: 0 auto;
 }
 
-/* line 99, sass/_partials/_parallax.scss */
+/* line 116, sass/_partials/_parallax.scss */
 .shadowed {
   -webkit-filter: drop-shadow(4px 4px 2px rgba(0, 0, 0, 0.7));
   filter: url(shadow.svg#drop-shadow);
@@ -1118,14 +1147,14 @@ div.empty_container img {
   transition: 0.75s;
 }
 
-/* line 108, sass/_partials/_parallax.scss */
+/* line 125, sass/_partials/_parallax.scss */
 section.module_brand.content_brand {
   background-color: #fff;
   color: #000;
   margin-bottom: 0;
 }
 
-/* line 115, sass/_partials/_parallax.scss */
+/* line 132, sass/_partials/_parallax.scss */
 div.brand-content-wrapper {
   height: 200px;
   max-width: 68em;
@@ -1140,7 +1169,7 @@ div.brand-content-wrapper:after {
   clear: both;
 }
 
-/* line 120, sass/_partials/_parallax.scss */
+/* line 137, sass/_partials/_parallax.scss */
 section.module.parallax_brand {
   height: 600px;
   background-position: 50% 50%;
@@ -1152,34 +1181,34 @@ section.module.parallax_brand {
   background-size: cover;
 }
 
-/* line 132, sass/_partials/_parallax.scss */
+/* line 149, sass/_partials/_parallax.scss */
 div.abbot_top p {
   margin-bottom: 0;
   padding: 0.5em 2.0em 0.5em;
 }
-/* line 136, sass/_partials/_parallax.scss */
+/* line 153, sass/_partials/_parallax.scss */
 div.abbot_top p:last-child {
   padding: 0.5em 2.0em 2.0em;
 }
 
 @media all and (min-width: 600px) {
-  /* line 142, sass/_partials/_parallax.scss */
+  /* line 159, sass/_partials/_parallax.scss */
   section.module h2 {
     font-size: 42px;
   }
 
-  /* line 145, sass/_partials/_parallax.scss */
+  /* line 162, sass/_partials/_parallax.scss */
   section.module p {
     font-size: 20px;
   }
 
-  /* line 148, sass/_partials/_parallax.scss */
+  /* line 165, sass/_partials/_parallax.scss */
   section.module.parallax h1 {
     font-size: 96px;
   }
 }
 @media all and (min-width: 960px) {
-  /* line 153, sass/_partials/_parallax.scss */
+  /* line 170, sass/_partials/_parallax.scss */
   section.module.parallax h1 {
     font-size: 160px;
   }
@@ -1195,7 +1224,6 @@ body {
 /* line 9, sass/_partials/_header.scss */
 header {
   width: 100%;
-  max-height: 80px;
 }
 /* line 12, sass/_partials/_header.scss */
 header #logo_box {
@@ -1203,8 +1231,7 @@ header #logo_box {
   display: block;
   margin-right: 2.35765%;
   width: 14.70196%;
-  padding: 0.9em 2.0em 0;
-  max-height: 80px;
+  padding: 0.9em 2.0em 0.6em;
 }
 /* line 85, sass/neat/grid/_span-columns.scss */
 header #logo_box:last-child {

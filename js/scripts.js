@@ -27,15 +27,30 @@
 //   }
 // }
 
+// // Add drop shadow to svg on hover //
+// $("img#drop-shadow").hover(
+//   function () {
+//     $(this).addClass('shadowed', 250);
+//   }, 
+//   function () {
+//     $(this).removeClass('shadowed', 250);
+//   }
+// );
 
+
+// Add drop shadow to svg on hover //
 $("img#drop-shadow").hover(
   function () {
-    $(this).addClass('shadowed', 250);
+    $(this).fadeTo( "slow" , 0.5, function() {
+    // Animation complete.
+  	});
   }, 
   function () {
-    $(this).removeClass('shadowed', 250);
+    $(this).fadeTo( "slow" , 1.0, function() {
+    // Animation complete.
+  	});
   }
- );
+);
 
 
 jQuery(document).ready(function() {
