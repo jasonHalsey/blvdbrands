@@ -29,6 +29,12 @@ get_header(); ?>
 	        	<div class="brand-content-wrapper">
 		          <p> ONE BXWD’s main purpose is to bring an innovative and comfortable wardrobe to the boundless cross generational male. Using a refined approach by combining performance fabrics with a polished sportswear mind set.</p>
 	          </div>
+	          <div class="brand-info-container">
+		          	<div class="brand-info">
+			          	<a href="http://www.onebxwd.com"><img src="<?php bloginfo('template_directory'); ?>/images/brand/onebxwd_brand.svg" class="" id="brander"/></a>
+			          	<a href="http://www.onebxwd.com">www.onebxwd.com</a>
+		          	</div>
+	          </div>
 	        </div>
 	      </section>
 

@@ -29,6 +29,12 @@ get_header(); ?>
 	        	<div class="brand-content-wrapper">
 		          <p> Technical activewear fabrics, silky soft knits, and explosions of color, embody the spirit of an energetic lifestyle brand that will inspire everyone to live their healthiest life.</p>
 	          </div>
+	          <div class="brand-info-container">
+		          	<div class="brand-info">
+			          	<a href="http://www.caelum-lifestyle.com"><img src="<?php bloginfo('template_directory'); ?>/images/brand/caelum_brand.svg" class="" id="brander"/></a>
+			          	<a href="http://www.caelum-lifestyle.com">www.caelum-lifestyle.com</a>
+		          	</div>
+	          </div>
 	        </div>
 	      </section>
 

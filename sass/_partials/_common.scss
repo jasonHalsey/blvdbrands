@@ -1,3 +1,17 @@
-
 .right{float:right}
 .left{float:left}
+
+.brand-info-container{
+	@include outer-container;
+		margin-bottom: 2.5em;
+	.brand-info{
+		@include span-columns(4);
+		@include shift(4);
+		a{
+			color:#000;
+			&:hover{
+				color:#c41200;
+			}
+		}
+	}
+}
