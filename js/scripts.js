@@ -38,7 +38,24 @@
 // );
 
 
-// Add drop shadow to svg on hover //
+// $(document).scroll(function(){
+//      $('header.navigation').toggleClass('scrolled', $(this).scrollTop() > 100);
+//  });
+
+
+$(document).ready(function() {
+    var $header = $("header.navigation"),
+        $clone = $header.before($header.clone().addClass("clone"));
+    
+    $(window).on("scroll", function() {
+        var fromTop = $(window).scrollTop();
+        console.log(fromTop);
+        $("body").toggleClass("down", (fromTop > 100));
+    });
+});
+
+
+// Change opacity of svg on hover //
 $("img#drop-shadow").hover(
   function () {
     $(this).fadeTo( "slow" , 0.5, function() {
