@@ -5,7 +5,7 @@ $large-screen: em(860);
   min-height: 100%;
   height: auto !important;
   height: 100%;
-  margin: 0 auto -4em;
+  margin: 0 auto -17em;
 }
 
 html, body {
@@ -13,11 +13,11 @@ html, body {
 }
 
 .footer-2, .push {
-  height: 17em;
+  height: 7em;
 
-  @include media($large-screen) {
-    height: 4em;
-  }
+  // @include media($large-screen) {
+  //   height: 4em;
+  // }
 }
 
 .footer-2 {
@@ -26,7 +26,7 @@ html, body {
   $footer-disclaimer-color: transparentize($footer-color, .6);
 
   background: #333;
-  padding: 1.25em;
+  padding: 2.5em 1.25em 1.25em;
   width: 100%;
 
   .footer-logo {

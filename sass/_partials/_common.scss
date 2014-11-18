@@ -1,6 +1,9 @@
 .right{float:right}
 .left{float:left}
 
+#main{
+	// padding-top:96px;
+}
 .brand-info-container{
 	@include outer-container;
 		margin-bottom: 2.5em;

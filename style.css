@@ -405,7 +405,7 @@ input[type="submit"] {
 
 /* line 3, sass/_partials/_navigation.scss */
 header.navigation {
-  margin-top: 20px;
+  padding-top: 40px;
   background-color: rgba(0, 0, 0, 0.6);
   border-bottom: 1px solid #1a1a1a;
   width: 100%;
@@ -867,7 +867,7 @@ header.navigation .search-bar .search-and-submit button[type=submit] img {
   min-height: 100%;
   height: auto !important;
   height: 100%;
-  margin: 0 auto -4em;
+  margin: 0 auto -17em;
 }
 
 /* line 11, sass/_partials/_footer.scss */
@@ -877,19 +877,13 @@ html, body {
 
 /* line 15, sass/_partials/_footer.scss */
 .footer-2, .push {
-  height: 17em;
-}
-@media screen and (min-width: 53.75em) {
-  /* line 15, sass/_partials/_footer.scss */
-  .footer-2, .push {
-    height: 4em;
-  }
+  height: 7em;
 }
 
 /* line 23, sass/_partials/_footer.scss */
 .footer-2 {
   background: #333;
-  padding: 1.25em;
+  padding: 2.5em 1.25em 1.25em;
   width: 100%;
 }
 /* line 32, sass/_partials/_footer.scss */
@@ -1253,7 +1247,7 @@ header #logo_box img {
   float: left;
 }
 
-/* line 4, sass/_partials/_common.scss */
+/* line 7, sass/_partials/_common.scss */
 .brand-info-container {
   max-width: 68em;
   margin-left: auto;
@@ -1266,7 +1260,7 @@ header #logo_box img {
   display: table;
   clear: both;
 }
-/* line 7, sass/_partials/_common.scss */
+/* line 10, sass/_partials/_common.scss */
 .brand-info-container .brand-info {
   float: left;
   display: block;
@@ -1278,11 +1272,11 @@ header #logo_box img {
 .brand-info-container .brand-info:last-child {
   margin-right: 0;
 }
-/* line 10, sass/_partials/_common.scss */
+/* line 13, sass/_partials/_common.scss */
 .brand-info-container .brand-info a {
   color: #000;
 }
-/* line 12, sass/_partials/_common.scss */
+/* line 15, sass/_partials/_common.scss */
 .brand-info-container .brand-info a:hover {
   color: #c41200;
 }
