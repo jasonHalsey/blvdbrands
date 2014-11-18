@@ -1252,7 +1252,7 @@ header #logo_box img {
   max-width: 68em;
   margin-left: auto;
   margin-right: auto;
-  margin-bottom: 2.5em;
+  margin-bottom: 4.5em;
 }
 /* line 15, sass/bourbon/addons/_clearfix.scss */
 .brand-info-container:after {
