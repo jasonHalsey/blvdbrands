@@ -1,0 +1,14 @@
+.contact-mod{
+	width:100%;
+	@include clearfix;
+	.contact_path{
+		@include span-columns(2);
+		background-color: yellow;
+		min-height:150px;
+	}
+	.center_path{
+		@include span-columns(4);
+		background-color:red;
+		min-height:150px;
+	}
+}

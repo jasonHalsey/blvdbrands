@@ -8,12 +8,11 @@ header {
     position: relative;
     width: 100%;
     height: 130px;
-    background: red;
 }
 header.clone {
     position:fixed;
     top:-130px;
-    transition:0.6s top ease-in;
+    transition:0.4s top ease-in;
 }
 body.down header.clone {
     top:0;
@@ -24,7 +23,7 @@ body.down header.clone {
 
 header.navigation {
   $navigation-padding: 1em;
-  $navigation-background: #333;
+  $navigation-background: #000;
   $navigation-color: white;
   $navigation-color-hover: transparentize(white, 0.3);
   $navigation-height: 60px;
@@ -37,9 +36,9 @@ header.navigation {
   $navigation-submenu-padding: 1em;
   $navigation-submenu-width: 12em;
   $horizontal-bar-mode: $large-screen;
-  padding-top: 40px; 
+  padding-top: 28px; 
   @include clearfix;
-  background-color:rgba(0,0,0,0.6);
+  background-color:rgba(0,0,0,0.8);
   border-bottom: 1px solid darken($navigation-background, 10);
   width: 100%;
   z-index: 999;

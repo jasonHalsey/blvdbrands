@@ -43,14 +43,14 @@
 //  });
 
 
-$(document).ready(function() {
+jQuery(document).ready(function() {
     var $header = $("header.navigation"),
         $clone = $header.before($header.clone().addClass("clone"));
     
-    $(window).on("scroll", function() {
+    jQuery(window).on("scroll", function() {
         var fromTop = $(window).scrollTop();
         console.log(fromTop);
-        $("body").toggleClass("down", (fromTop > 100));
+        jQuery("body").toggleClass("down", (fromTop > 100));
     });
 });
 
@@ -71,6 +71,9 @@ $("img#drop-shadow").hover(
 
 
 jQuery(document).ready(function() {
+
+
+	jQuery('body').css('background', 'none');
 	
 	// Refills Navigation Script //
 
