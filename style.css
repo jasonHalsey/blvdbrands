@@ -893,7 +893,7 @@ header.navigation .search-bar .search-and-submit button[type=submit] img {
   min-height: 100%;
   height: auto !important;
   height: 100%;
-  margin: 0 auto -17em;
+  margin: 0 auto -34em;
 }
 
 /* line 11, sass/_partials/_footer.scss */
@@ -903,7 +903,7 @@ html, body {
 
 /* line 15, sass/_partials/_footer.scss */
 .footer-2, .push {
-  height: 7em;
+  height: 14em;
 }
 
 /* line 23, sass/_partials/_footer.scss */
@@ -1311,6 +1311,7 @@ header #logo_box img {
 /* line 1, sass/_partials/_contact.scss */
 .contact-mod {
   width: 100%;
+  position: relative;
 }
 /* line 15, sass/bourbon/addons/_clearfix.scss */
 .contact-mod:after {
@@ -1318,29 +1319,84 @@ header #logo_box img {
   display: table;
   clear: both;
 }
-/* line 4, sass/_partials/_contact.scss */
+/* line 5, sass/_partials/_contact.scss */
 .contact-mod .contact_path {
   float: left;
   display: block;
   margin-right: 2.35765%;
   width: 14.70196%;
-  background-color: yellow;
-  min-height: 150px;
+  text-align: center;
+  padding-top: 2.5%;
 }
 /* line 85, sass/neat/grid/_span-columns.scss */
 .contact-mod .contact_path:last-child {
   margin-right: 0;
 }
 /* line 9, sass/_partials/_contact.scss */
+.contact-mod .contact_path .icon_contact {
+  width: 100px;
+  height: 100px;
+  border-radius: 50px;
+  font-size: 20px;
+  color: #fff;
+  line-height: 100px;
+  text-align: center;
+  background: #bababa;
+  margin: 2% auto 0;
+}
+/* line 20, sass/_partials/_contact.scss */
+.contact-mod .contact_path .icon_contact span.sales_icon img {
+  padding-top: 23%;
+}
+/* line 23, sass/_partials/_contact.scss */
+.contact-mod .contact_path .icon_contact span.pr_icon img {
+  padding-top: 20%;
+}
+/* line 26, sass/_partials/_contact.scss */
+.contact-mod .contact_path .icon_contact span.phone_icon img {
+  padding-top: 25%;
+}
+/* line 29, sass/_partials/_contact.scss */
+.contact-mod .contact_path .icon_contact span.email_icon img {
+  padding-top: 35%;
+}
+/* line 33, sass/_partials/_contact.scss */
 .contact-mod .center_path {
   float: left;
   display: block;
   margin-right: 2.35765%;
   width: 31.76157%;
-  background-color: red;
-  min-height: 150px;
+  text-align: center;
 }
 /* line 85, sass/neat/grid/_span-columns.scss */
 .contact-mod .center_path:last-child {
   margin-right: 0;
+}
+/* line 36, sass/_partials/_contact.scss */
+.contact-mod .center_path .icon_contact {
+  width: 180px;
+  height: 180px;
+  border-radius: 50%;
+  font-size: 20px;
+  color: #fff;
+  line-height: 180px;
+  text-align: center;
+  background: #bababa;
+  margin: 2% auto 0;
+}
+/* line 47, sass/_partials/_contact.scss */
+.contact-mod .center_path .icon_contact span.blvd_icon img {
+  padding-top: 18%;
+}
+
+/* line 52, sass/_partials/_contact.scss */
+.contact-row {
+  padding-bottom: 2.5%;
+  padding-top: 2.0%;
+}
+
+/* line 57, sass/_partials/_contact.scss */
+.contact-banner img {
+  width: 100%;
+  height: auto;
 }

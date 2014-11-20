@@ -1,14 +1,58 @@
 .contact-mod{
 	width:100%;
 	@include clearfix;
+	position:relative;
 	.contact_path{
-		@include span-columns(2);
-		background-color: yellow;
-		min-height:150px;
+		@include span-columns(2);	
+		text-align:center;
+		padding-top: 2.5%;
+		.icon_contact{
+			width:100px;
+			height:100px;
+			border-radius:50px;
+			font-size:20px;
+			color:#fff;
+			line-height:100px;
+			text-align:center;
+			background:#bababa;
+			margin: 2% auto 0;
+			span.sales_icon{
+				img{padding-top:23%;}
+			}
+			span.pr_icon{
+				img{padding-top:20%;}
+			}
+			span.phone_icon{
+				img{padding-top:25%;}
+			}
+			span.email_icon{
+				img{padding-top:35%;}
+			}
+		}
 	}
 	.center_path{
 		@include span-columns(4);
-		background-color:red;
-		min-height:150px;
+		text-align:center;
+		.icon_contact{
+			width:180px;
+			height:180px;
+			border-radius:50%;
+			font-size:20px;
+			color:#fff;
+			line-height:180px;
+			text-align:center;
+			background:#bababa;
+			margin: 2% auto 0;
+			span.blvd_icon{
+				img{padding-top:18%;}
+			}
+		}
 	}
+}
+.contact-row{
+	padding-bottom: 2.5%;
+	padding-top: 2.0%;
+}
+.contact-banner{
+	img{width:100%;height:auto;}
 }

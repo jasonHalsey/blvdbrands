@@ -5,7 +5,7 @@ $large-screen: em(860);
   min-height: 100%;
   height: auto !important;
   height: 100%;
-  margin: 0 auto -17em;
+  margin: 0 auto -34em;
 }
 
 html, body {
@@ -13,7 +13,7 @@ html, body {
 }
 
 .footer-2, .push {
-  height: 7em;
+  height: 14em;
 
   // @include media($large-screen) {
   //   height: 4em;
