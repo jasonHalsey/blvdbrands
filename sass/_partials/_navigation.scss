@@ -13,6 +13,7 @@ header.clone {
     position:fixed;
     top:-130px;
     transition:0.4s top ease-in;
+    background-color:rgba(0,0,0,0.8);
 }
 body.down header.clone {
     top:0;
@@ -38,7 +39,7 @@ header.navigation {
   $horizontal-bar-mode: $large-screen;
   padding-top: 28px; 
   @include clearfix;
-  background-color:rgba(0,0,0,0.8);
+  background-color:rgba(0,0,0,0.95);
   border-bottom: 1px solid darken($navigation-background, 10);
   width: 100%;
   z-index: 999;
