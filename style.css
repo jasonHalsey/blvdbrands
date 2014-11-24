@@ -1427,7 +1427,7 @@ header #logo_box img {
   background: url("/images/mountains.png");
   background-color: #477DCA;
   border: 1px solid #DDD;
-  height: 10em;
+  height: 20em;
   margin-bottom: 1.5;
   cursor: pointer;
   margin: 0;
@@ -1447,7 +1447,7 @@ header #logo_box img {
 }
 /* line 28, sass/_partials/_brand_overview.scss */
 .hover-tile-outer .hover-tile-container {
-  height: 10em;
+  height: 20em;
   overflow: hidden;
 }
 /* line 33, sass/_partials/_brand_overview.scss */
