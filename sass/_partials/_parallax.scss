@@ -134,7 +134,12 @@ section.module_brand.content_brand {
 div.brand-content-wrapper{
   height:200px;
   @include outer-container;
-  padding-top:1.75em;
+  // padding-top:1.75em;
+  display: table;
+}
+div.brand-content{
+  display: table-cell; 
+  vertical-align: middle;
 }
 section.module.parallax_brand {
   height: 600px;
