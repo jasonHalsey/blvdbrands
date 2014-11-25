@@ -1,3 +1,8 @@
+@import "options";
+@import "mixins";
+@import "hacks";
+
+
 .contact-mod{
 	width:100%;
 	@include clearfix;
@@ -15,7 +20,7 @@
 			line-height:100px;
 			text-align:center;
 			background:#bababa;
-			margin: 2% auto 0;
+			margin: 2% auto 4%;
 			span.sales_icon{
 				img{padding-top:23%;}
 			}
@@ -33,6 +38,7 @@
 	.center_path{
 		@include span-columns(4);
 		text-align:center;
+		position: relative;
 		.icon_contact{
 			width:180px;
 			height:180px;
@@ -42,7 +48,7 @@
 			line-height:180px;
 			text-align:center;
 			background:#bababa;
-			margin: 2% auto 0;
+			margin: 2% auto 4%;
 			span.blvd_icon{
 				img{padding-top:18%;}
 			}
@@ -55,4 +61,11 @@
 }
 .contact-banner{
 	img{width:100%;height:auto;}
+}
+
+
+//Hover Effecst
+@import "effects/outline-outward";
+.outline-outward {
+	@include outline-outward();
 }

@@ -13,16 +13,16 @@ get_header(); ?>
 
 	<section class="contact-mod contact-row">
 		<div class="contact_path">
-			<div class="icon_contact">
+			<div class="icon_contact outline-outward">
 				<span class="sales_icon"><img src="<?php bloginfo('template_directory'); ?>/images/sales_icon.svg" /></span>
 			</div>
 			<h2>sales</h2>
-			<p>Lisa DiGuilo</p>
-			<p>lisa@beachhousellc.com</p>
+			<!-- <p>Lisa DiGuilo</p> -->
+			<p>sales@beachhousellc.com</p>
 		</div>
 
 		<div class="contact_path">
-			<div class="icon_contact">
+			<div class="icon_contact outline-outward">
 				<span class="pr_icon"><img src="<?php bloginfo('template_directory'); ?>/images/pr_icon.svg" /></span>
 			</div>
 			<h2>pr</h2>
@@ -32,7 +32,7 @@ get_header(); ?>
 		</div>
 
 		<div class="center_path">
-			<div class="icon_contact">
+			<div class="icon_contact outline-outward">
 				<span class="blvd_icon"><img src="<?php bloginfo('template_directory'); ?>/images/blvd_icon.svg" /></span>
 			</div>
 			<h2>headquarters</h2>
@@ -41,7 +41,7 @@ get_header(); ?>
 		</div>
 
 		<div class="contact_path">
-			<div class="icon_contact">
+			<div class="icon_contact outline-outward">
 				<span class="phone_icon"><img src="<?php bloginfo('template_directory'); ?>/images/phone_icon.svg" /></span>
 			</div>
 			<h2>phone</h2>
@@ -49,7 +49,7 @@ get_header(); ?>
 		</div>
 
 		<div class="contact_path">
-			<div class="icon_contact">
+			<div class="icon_contact outline-outward">
 				<span class="email_icon"><img src="<?php bloginfo('template_directory'); ?>/images/email_icon.svg" /></span>
 			</div>
 			<h2>email</h2>

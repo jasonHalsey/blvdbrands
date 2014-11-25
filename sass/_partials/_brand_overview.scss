@@ -9,7 +9,7 @@ $medium-screen: em(640);
 
 
 .hover-tile-outer {
-  $hover-tile-height: 20em;
+  $hover-tile-height: 40em;
 
   background-size: cover;
   background-position: bottom;
@@ -22,7 +22,9 @@ $medium-screen: em(640);
   margin: 0;
   
   @include media($medium-screen) {
-    @include span-columns(3);
+    width:33.32%;
+    margin-right:0;
+    float:left;
   }
 
   .hover-tile-container {
