@@ -1199,13 +1199,13 @@ div.brand-content-wrapper:after {
   clear: both;
 }
 
-/* line 140, sass/_partials/_parallax.scss */
+/* line 139, sass/_partials/_parallax.scss */
 div.brand-content {
   display: table-cell;
   vertical-align: middle;
 }
 
-/* line 144, sass/_partials/_parallax.scss */
+/* line 143, sass/_partials/_parallax.scss */
 section.module.parallax_brand {
   height: 600px;
   background-position: 50% 50%;
@@ -1217,34 +1217,34 @@ section.module.parallax_brand {
   background-size: cover;
 }
 
-/* line 156, sass/_partials/_parallax.scss */
+/* line 155, sass/_partials/_parallax.scss */
 div.abbot_top p {
   margin-bottom: 0;
   padding: 0.5em 2.0em 0.5em;
 }
-/* line 160, sass/_partials/_parallax.scss */
+/* line 159, sass/_partials/_parallax.scss */
 div.abbot_top p:last-child {
   padding: 0.5em 2.0em 2.0em;
 }
 
 @media all and (min-width: 600px) {
-  /* line 166, sass/_partials/_parallax.scss */
+  /* line 165, sass/_partials/_parallax.scss */
   section.module h2 {
     font-size: 42px;
   }
 
-  /* line 169, sass/_partials/_parallax.scss */
+  /* line 168, sass/_partials/_parallax.scss */
   section.module p {
     font-size: 20px;
   }
 
-  /* line 172, sass/_partials/_parallax.scss */
+  /* line 171, sass/_partials/_parallax.scss */
   section.module.parallax h1 {
     font-size: 96px;
   }
 }
 @media all and (min-width: 960px) {
-  /* line 177, sass/_partials/_parallax.scss */
+  /* line 176, sass/_partials/_parallax.scss */
   section.module.parallax h1 {
     font-size: 160px;
   }
