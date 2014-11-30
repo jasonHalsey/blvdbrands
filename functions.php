@@ -32,7 +32,8 @@ function my_jquery_enqueue() {
 
 function wpb_adding_scripts() {
   wp_register_script('scripts', get_template_directory_uri() . '/js/scripts.js');
-
+  wp_register_script('modernizr', get_template_directory_uri() . '/js/modernizr.js');
+  wp_enqueue_script('modernizr');
   wp_enqueue_script('scripts');
 }
 add_action( 'wp_footer', 'wpb_adding_scripts' );  

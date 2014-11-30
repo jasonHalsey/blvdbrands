@@ -41,6 +41,9 @@ header.navigation {
   $navigation-submenu-padding: 1em;
   $navigation-submenu-width: 12em;
   $horizontal-bar-mode: $large-screen;
+  @include media ($tablet){
+    $navigation-background: #999;
+  }
   padding-top: 28px; 
   @include clearfix;
   // background-color:rgba(0,0,0,0.9);
@@ -89,6 +92,13 @@ header.navigation {
       color: $navigation-color-hover;
     }
   }
+  div.menu-menu-1-container{
+    @include media ($tablet){
+      position:absolute;
+      width:100%;
+
+    }
+  }
 
   // Nav menu
 
@@ -103,7 +113,7 @@ header.navigation {
     }
   }
 
-  ul#menu-primary {    
+  ul#menu-menu-1{    
     -webkit-transform-style: preserve-3d; // stop webkit flicker
     clear: both;
     display: none;

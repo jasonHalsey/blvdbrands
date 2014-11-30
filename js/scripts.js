@@ -1,17 +1,43 @@
 
 jQuery(document).ready(function() {
-    var $header = $("header.navigation"),
-        $clone = $header.before($header.clone().addClass("clone"));
-    jQuery('header.navigation').addClass("semi-trans");
-    jQuery(window).on("scroll", function() {
-        var fromTop = $(window).scrollTop();
-        // console.log(fromTop);
-        jQuery("body").toggleClass("down", (fromTop > 100));
-        jQuery('header.navigation').removeClass("semi-trans", (fromTop > 120));
-        jQuery('header.navigation').toggleClass("very-trans", (fromTop > 100));
-        jQuery('header.navigation').toggleClass("semi-trans", (fromTop < 100));
-    });
+    
+	if(Modernizr.mq('only all and (min-width: 800px)')){
+		alert("Bigger than 800");
+		var $header = $("header.navigation"),
+	        $clone = $header.before($header.clone().addClass("clone"));
+	    jQuery('header.navigation').addClass("semi-trans");
+	    jQuery(window).on("scroll", function() {
+	        var fromTop = $(window).scrollTop();
+	        // console.log(fromTop);
+	        jQuery("body").toggleClass("down", (fromTop > 100));
+	        jQuery('header.navigation').removeClass("semi-trans", (fromTop > 120));
+	        jQuery('header.navigation').toggleClass("very-trans", (fromTop > 100));
+	        jQuery('header.navigation').toggleClass("semi-trans", (fromTop < 100));
+	    });
+	}else {
+		jQuery('header.navigation').toggleClass("semi-trans");
+	};
+
+
 });
+
+// $(window).bind('resize', function(){
+// 	if(Modernizr.mq('(min-device-width: 800px)')){
+// 		console.log("modern if statement");
+// 		var $header = $("header.navigation"),
+// 	        $clone = $header.before($header.clone().addClass("clone"));
+// 	    jQuery('header.navigation').addClass("semi-trans");
+// 	    jQuery(window).on("scroll", function() {
+// 	        var fromTop = $(window).scrollTop();
+// 	        // console.log(fromTop);
+// 	        jQuery("body").toggleClass("down", (fromTop > 100));
+// 	        jQuery('header.navigation').removeClass("semi-trans", (fromTop > 120));
+// 	        jQuery('header.navigation').toggleClass("very-trans", (fromTop > 100));
+// 	        jQuery('header.navigation').toggleClass("semi-trans", (fromTop < 100));
+// 	    });
+// 	};
+
+// });
 
 
 // Change opacity of svg on hover //
@@ -36,7 +62,7 @@ jQuery(document).ready(function() {
 	
 	// Refills Navigation Script //
 
-	  var menu = jQuery('#menu-primary');
+	  var menu = jQuery('#menu-menu-1');
 	  var menuToggle = jQuery('#js-mobile-menu');
 	  var signUp = jQuery('.sign-up');
 
