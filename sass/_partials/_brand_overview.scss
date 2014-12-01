@@ -50,6 +50,12 @@ $medium-screen: em(640);
     font-weight: 200;  
     padding-top: 1.5em;
     text-align: center;
+    display:table;
+  }
+
+  .hover-logo{
+    display:table-cell;
+    vertical-align: middle;
   }
 
   .hover-tile-hidden {
