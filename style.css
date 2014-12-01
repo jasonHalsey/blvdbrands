@@ -1401,26 +1401,30 @@ header {
   margin: 0 auto;
 }
 /* line 14, sass/_partials/_common.scss */
+.brand-info-container .brand-info img {
+  max-width: 50%;
+}
+/* line 17, sass/_partials/_common.scss */
 .brand-info-container .brand-info a {
   color: #666;
 }
-/* line 16, sass/_partials/_common.scss */
+/* line 19, sass/_partials/_common.scss */
 .brand-info-container .brand-info a:hover {
   color: #c41200;
 }
 
-/* line 23, sass/_partials/_common.scss */
+/* line 26, sass/_partials/_common.scss */
 .wpgmaps_directions_outer_div {
   padding-left: 20px;
   padding-right: 20px;
 }
 
-/* line 30, sass/_partials/_common.scss */
+/* line 33, sass/_partials/_common.scss */
 svg#Layer_1 path {
   fill: #666;
 }
 
-/* line 36, sass/_partials/_common.scss */
+/* line 39, sass/_partials/_common.scss */
 svg#brander path {
   fill: #666;
 }
