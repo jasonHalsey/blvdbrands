@@ -1398,29 +1398,31 @@ header {
 }
 /* line 10, sass/_partials/_common.scss */
 .brand-info-container .brand-info {
-  float: left;
-  display: block;
-  margin-right: 2.35765%;
-  width: 31.76157%;
-  margin-left: 34.11922%;
+  margin: 0 auto;
 }
-/* line 85, sass/neat/grid/_span-columns.scss */
-.brand-info-container .brand-info:last-child {
-  margin-right: 0;
-}
-/* line 13, sass/_partials/_common.scss */
+/* line 14, sass/_partials/_common.scss */
 .brand-info-container .brand-info a {
-  color: #000;
+  color: #666;
 }
-/* line 15, sass/_partials/_common.scss */
+/* line 16, sass/_partials/_common.scss */
 .brand-info-container .brand-info a:hover {
   color: #c41200;
 }
 
-/* line 22, sass/_partials/_common.scss */
+/* line 23, sass/_partials/_common.scss */
 .wpgmaps_directions_outer_div {
   padding-left: 20px;
   padding-right: 20px;
+}
+
+/* line 30, sass/_partials/_common.scss */
+svg#Layer_1 path {
+  fill: #666;
+}
+
+/* line 36, sass/_partials/_common.scss */
+svg#brander path {
+  fill: #666;
 }
 
 /* line 6, sass/_partials/_contact.scss */

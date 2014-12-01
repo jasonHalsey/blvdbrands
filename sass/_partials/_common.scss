@@ -8,10 +8,11 @@
 	@include outer-container;
 		margin-bottom: 4.5em;
 	.brand-info{
-		@include span-columns(4);
-		@include shift(4);
+		// @include span-columns(4);
+		// @include shift(4);
+		margin: 0 auto;
 		a{
-			color:#000;
+			color:#666;
 			&:hover{
 				color:#c41200;
 			}
@@ -22,4 +23,17 @@
 .wpgmaps_directions_outer_div{
 	padding-left:20px;
 	padding-right:20px;
+}
+
+
+svg#Layer_1{
+    path{
+    	fill:#666;
+    }
+}
+
+svg#brander{
+    path{
+    	fill:#666;
+    }
 }

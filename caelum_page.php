@@ -35,7 +35,7 @@ get_header(); ?>
 	          </div>
 	          <div class="brand-info-container">
 		          	<div class="brand-info">
-			          	<a href="http://www.caelumlifestyle.com"><img src="<?php bloginfo('template_directory'); ?>/images/brand/caelum_brand.svg" class="" id="brander"/></a>
+			          	<a href="http://www.caelumlifestyle.com"><img src="<?php bloginfo('template_directory'); ?>/images/brand/caelum_brand.svg" class="svg" id="brander"/></a><br />
 			          	<a href="http://www.caelumlifestyle.com">www.caelumlifestyle.com</a>
 		          	</div>
 	          </div>

@@ -35,7 +35,7 @@ get_header(); ?>
 	          	</div>
 	          <div class="brand-info-container">
 		          	<div class="brand-info">
-			          	<a href="http://www.onebxwd.com"><img src="<?php bloginfo('template_directory'); ?>/images/brand/onebxwd_brand_black.svg" class="" id="brander"/></a>
+			          	<a href="http://www.onebxwd.com"><img src="<?php bloginfo('template_directory'); ?>/images/brand/onebxwd_brand_black.svg" class="svg" id="brander"/></a><br />
 			          	<a href="http://www.onebxwd.com">www.onebxwd.com</a>
 		          	</div>
 	          </div>

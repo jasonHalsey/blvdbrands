@@ -37,7 +37,7 @@ get_header(); ?>
 	          </div>
 	          <div class="brand-info-container">
 		          	<div class="brand-info">
-			          	<a href="http://www.abbotmain.com"><img src="<?php bloginfo('template_directory'); ?>/images/brand/am_brand.svg" class="" id="brander"/></a>
+			          	<a href="http://www.abbotmain.com"><img src="<?php bloginfo('template_directory'); ?>/images/brand/am_brand.svg" class="svg" id="brander"/></a><br />
 			          	<a href="http://www.abbotmain.com">www.abbotmain.com</a>
 		          	</div>
 	          </div>
