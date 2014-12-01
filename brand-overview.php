@@ -8,7 +8,7 @@ get_header(); ?>
 
 	<div class="brand-container">
 		
-		<div class="hover-tile-outer">
+		<div class="hover-tile-outer abbot_overview">
 		  <div class="hover-tile-container">
 		    <div class="hover-tile hover-tile-visible">
 		    	<div class="hover-logo">
@@ -22,7 +22,7 @@ get_header(); ?>
 		  </div>
 		</div>
 
-		<div class="hover-tile-outer">
+		<div class="hover-tile-outer caelum_overview">
 		  <div class="hover-tile-container">
 		    <div class="hover-tile hover-tile-visible">
 		    	<div class="hover-logo">
@@ -36,7 +36,7 @@ get_header(); ?>
 		  </div>
 		</div>
 
-		<div class="hover-tile-outer">
+		<div class="hover-tile-outer onebxwd_overview">
 		  <div class="hover-tile-container">
 		    <div class="hover-tile hover-tile-visible">
 		    	<div class="hover-logo">
@@ -50,7 +50,7 @@ get_header(); ?>
 		  </div>
 		</div>
 
-		<div class="hover-tile-outer">
+		<div class="hover-tile-outer pasion_overview">
 		  <div class="hover-tile-container">
 		    <div class="hover-tile hover-tile-visible">
 		    	<div class="hover-logo">

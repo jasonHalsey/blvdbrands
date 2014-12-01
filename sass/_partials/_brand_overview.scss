@@ -9,11 +9,10 @@ $medium-screen: em(640);
 
 
 .hover-tile-outer {
-  $hover-tile-height: 40em;
+  $hover-tile-height: 30em;
 
   background-size: cover;
   background-position: bottom;
-  background: url("/images/mountains.png");
   background-color: $base-accent-color;
   border: 1px solid $base-border-color;
   height: $hover-tile-height;
@@ -68,3 +67,14 @@ $medium-screen: em(640);
     }
   }
 }
+
+.abbot_overview{
+  background-color: #c41200;
+}
+
+.onebxwd_overview{
+  background: url("images/bxwd_city_bo.jpg");
+  // background-image: url("images/brand/Brooke_Main.jpg");
+}
+
+

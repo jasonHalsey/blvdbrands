@@ -1604,10 +1604,9 @@ header #logo_box img {
 .hover-tile-outer {
   background-size: cover;
   background-position: bottom;
-  background: url("/images/mountains.png");
   background-color: #477DCA;
   border: 1px solid #DDD;
-  height: 40em;
+  height: 30em;
   margin-bottom: 1.5;
   cursor: pointer;
   margin: 0;
@@ -1620,12 +1619,12 @@ header #logo_box img {
     float: left;
   }
 }
-/* line 30, sass/_partials/_brand_overview.scss */
+/* line 29, sass/_partials/_brand_overview.scss */
 .hover-tile-outer .hover-tile-container {
-  height: 40em;
+  height: 30em;
   overflow: hidden;
 }
-/* line 35, sass/_partials/_brand_overview.scss */
+/* line 34, sass/_partials/_brand_overview.scss */
 .hover-tile-outer .hover-tile-container:hover > .hover-tile {
   -webkit-transform: translate(0, -100%);
   -moz-transform: translate(0, -100%);
@@ -1633,7 +1632,7 @@ header #logo_box img {
   -o-transform: translate(0, -100%);
   transform: translate(0, -100%);
 }
-/* line 39, sass/_partials/_brand_overview.scss */
+/* line 38, sass/_partials/_brand_overview.scss */
 .hover-tile-outer .hover-tile {
   -webkit-transition: all, 0.2s ease-in-out;
   -moz-transition: all, 0.2s ease-in-out;
@@ -1643,7 +1642,7 @@ header #logo_box img {
   height: inherit;
   padding: 1em 1.5em;
 }
-/* line 47, sass/_partials/_brand_overview.scss */
+/* line 46, sass/_partials/_brand_overview.scss */
 .hover-tile-outer .hover-tile-visible {
   color: rgba(255, 255, 255, 0.7);
   font-size: 2em;
@@ -1652,20 +1651,30 @@ header #logo_box img {
   text-align: center;
   display: table;
 }
-/* line 56, sass/_partials/_brand_overview.scss */
+/* line 55, sass/_partials/_brand_overview.scss */
 .hover-tile-outer .hover-logo {
   display: table-cell;
   vertical-align: middle;
 }
-/* line 61, sass/_partials/_brand_overview.scss */
+/* line 60, sass/_partials/_brand_overview.scss */
 .hover-tile-outer .hover-tile-hidden {
   background: rgba(0, 0, 0, 0.5);
 }
-/* line 63, sass/_partials/_brand_overview.scss */
+/* line 62, sass/_partials/_brand_overview.scss */
 .hover-tile-outer .hover-tile-hidden h4 {
   margin-bottom: .5em;
 }
-/* line 66, sass/_partials/_brand_overview.scss */
+/* line 65, sass/_partials/_brand_overview.scss */
 .hover-tile-outer .hover-tile-hidden p {
   color: rgba(255, 255, 255, 0.7);
+}
+
+/* line 71, sass/_partials/_brand_overview.scss */
+.abbot_overview {
+  background-color: #c41200;
+}
+
+/* line 75, sass/_partials/_brand_overview.scss */
+.onebxwd_overview {
+  background: url("images/bxwd_city_bo.jpg");
 }
