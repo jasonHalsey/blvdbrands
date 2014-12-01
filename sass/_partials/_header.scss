@@ -12,10 +12,18 @@ header{
 	#logo_box{
 		@include span-columns(2);
 		padding: 0.9em 2.0em 0.6em;
-		// max-height:80px;
 		img{
 			width:100%;
 			height:auto;
+		}
+		@include media($tablet){
+			@include span-columns(3);
+		}
+		@include media($mobile){
+			@include span-columns(4);
+		}
+		@include media($phone){
+			@include span-columns(6);
 		}
 	}
 }

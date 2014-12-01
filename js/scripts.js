@@ -2,7 +2,7 @@
 jQuery(document).ready(function() {
     
 	if(Modernizr.mq('only all and (min-width: 800px)')){
-		alert("Bigger than 800");
+		
 		var $header = $("header.navigation"),
 	        $clone = $header.before($header.clone().addClass("clone"));
 	    jQuery('header.navigation').addClass("semi-trans");

@@ -46,17 +46,32 @@ header.navigation {
   }
   padding-top: 28px; 
   @include clearfix;
-  // background-color:rgba(0,0,0,0.9);
   border-bottom: 1px solid darken($navigation-background, 10);
   width: 100%;
   z-index: 999;
-  // position: fixed;
 
   .navigation-wrapper {
     @include clearfix;
-    width:100%;
+    @include span-columns(12);
     position: relative;
     z-index: 9999;
+    #logo_box{
+      @include span-columns(2);
+      padding: 0.9em 2.0em 0.6em;
+      img{
+        width:100%;
+        height:auto;
+      }
+      @include media($tablet){
+        @include span-columns(3);
+      }
+      @include media($mobile){
+        @include span-columns(4);
+      }
+      @include media($phone){
+        @include span-columns(6);
+      }
+    }
   }
 
   .logo {
@@ -93,9 +108,11 @@ header.navigation {
     }
   }
   div.menu-menu-1-container{
+    @include span-columns(12);
     @include media ($tablet){
       position:absolute;
-      width:100%;
+      // width:100%;
+
 
     }
   }
@@ -107,9 +124,12 @@ header.navigation {
     float: none;
     text-align:right;
     margin-top: 3px;
-    @include span-columns(9);
+    @include span-columns(10);
     @include media ($horizontal-bar-mode) {
       float: left;
+    }
+    @include media ($tablet) {
+      @include span-columns(9);
     }
   }
 
