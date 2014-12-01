@@ -99,4 +99,10 @@ jQuery(document).ready(function() {
 	    }
 
 
+	    $(".hover-tile-outer").click(function(){
+    		if($(this).find("a").length){
+        	window.location.href = $(this).find("a:first").attr("href");
+    	}
+});
+
 }); //End document.ready();

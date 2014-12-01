@@ -39,6 +39,7 @@ section.module.parallax {
   -moz-background-size: cover;
   -o-background-size: cover;
   background-size: cover;
+  display:table;
 }
 section.module.parallax h1 {
   color: rgba(255, 255, 255, 0.8);
@@ -69,6 +70,12 @@ section.module.parallax-4 {
 section.module.parallax-4-pt {
   background-image: url("images/brand/pasion_scroll.jpg");
 }
+section.module.parallax-5 {
+  background-image: url("images/brand/dg_scroll.jpg");
+}
+section.module.parallax-5dg {
+  background-image: url("images/brand/dg_scroll_brand.jpg");
+}
 
 div.home_container{
   width:100%;
@@ -76,6 +83,8 @@ div.home_container{
   background-color:rgba(0,0,0,0.4);
   margin: 0 auto;
   text-align: center;
+  display: table-cell;
+  vertical-align: middle;
   img{
     margin: 50px auto 0;
   }
@@ -139,6 +148,9 @@ div.brand-content-wrapper{
 div.brand-content{
   display: table-cell; 
   vertical-align: middle;
+  p{
+    color:#666;
+  }
 }
 section.module.parallax_brand {
   height: 600px;
