@@ -69,11 +69,19 @@ $medium-screen: em(640);
 }
 
 .abbot_overview{
-  background-color: #c41200;
+  background: url("images/am_brand_ov.jpg");
 }
-
 .onebxwd_overview{
   background: url("images/bxwd_city_bo.jpg");
+}
+.dg_overview{
+  background: url("images/dg_brand_ov.jpg");
+}
+.pasion_overview{
+  background: url("images/pasion_brand_ov.jpg");
+}
+.caelum_overview{
+  background: url("images/caelum_brand_ov.jpg");
 }
 
 

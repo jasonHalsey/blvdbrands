@@ -1639,10 +1639,25 @@ svg#brander path {
 
 /* line 71, sass/_partials/_brand_overview.scss */
 .abbot_overview {
-  background-color: #c41200;
+  background: url("images/am_brand_ov.jpg");
 }
 
-/* line 75, sass/_partials/_brand_overview.scss */
+/* line 74, sass/_partials/_brand_overview.scss */
 .onebxwd_overview {
   background: url("images/bxwd_city_bo.jpg");
+}
+
+/* line 77, sass/_partials/_brand_overview.scss */
+.dg_overview {
+  background: url("images/dg_brand_ov.jpg");
+}
+
+/* line 80, sass/_partials/_brand_overview.scss */
+.pasion_overview {
+  background: url("images/pasion_brand_ov.jpg");
+}
+
+/* line 83, sass/_partials/_brand_overview.scss */
+.caelum_overview {
+  background: url("images/caelum_brand_ov.jpg");
 }

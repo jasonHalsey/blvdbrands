@@ -68,7 +68,7 @@ get_header(); ?>
 		  </div>
 		</div>	
 
-		<div class="hover-tile-outer pasion_overview">
+		<div class="hover-tile-outer dg_overview">
 			<a href="<?php echo get_page_link( get_page_by_title( "dylangeorge" )->ID ); ?>"></a>
 		  <div class="hover-tile-container">
 		    <div class="hover-tile hover-tile-visible">
