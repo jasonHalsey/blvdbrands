@@ -1620,6 +1620,8 @@ svg#brander path {
   text-align: center;
   display: table;
   width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.4);
 }
 @media screen and (max-width: 979px) {
   /* line 46, sass/_partials/_brand_overview.scss */
@@ -1627,52 +1629,52 @@ svg#brander path {
     padding: 1.5em 0.5em;
   }
 }
-/* line 59, sass/_partials/_brand_overview.scss */
+/* line 61, sass/_partials/_brand_overview.scss */
 .hover-tile-outer .hover-logo {
   display: table-cell;
   vertical-align: middle;
   text-align: center;
   width: 50%;
 }
-/* line 66, sass/_partials/_brand_overview.scss */
-.hover-tile-outer .hover-tile-hidden {
-  background: rgba(0, 0, 0, 0.5);
-}
 /* line 68, sass/_partials/_brand_overview.scss */
+.hover-tile-outer .hover-tile-hidden {
+  background: rgba(0, 0, 0, 0.8);
+}
+/* line 70, sass/_partials/_brand_overview.scss */
 .hover-tile-outer .hover-tile-hidden h4 {
   margin-bottom: .5em;
 }
-/* line 71, sass/_partials/_brand_overview.scss */
+/* line 73, sass/_partials/_brand_overview.scss */
 .hover-tile-outer .hover-tile-hidden p {
   color: rgba(255, 255, 255, 0.7);
 }
 
-/* line 77, sass/_partials/_brand_overview.scss */
+/* line 79, sass/_partials/_brand_overview.scss */
 .abbot_overview {
   background-image: url("images/am_brand_ov.jpg");
 }
 
-/* line 80, sass/_partials/_brand_overview.scss */
+/* line 82, sass/_partials/_brand_overview.scss */
 .onebxwd_overview {
   background-image: url("images/bxwd_city_bo.jpg");
 }
 
-/* line 83, sass/_partials/_brand_overview.scss */
+/* line 85, sass/_partials/_brand_overview.scss */
 .dg_overview {
   background-image: url("images/dg_brand_ov.jpg");
 }
 
-/* line 86, sass/_partials/_brand_overview.scss */
+/* line 88, sass/_partials/_brand_overview.scss */
 .pasion_overview {
   background-image: url("images/pasion_brand_ov.jpg");
 }
 
-/* line 89, sass/_partials/_brand_overview.scss */
+/* line 91, sass/_partials/_brand_overview.scss */
 .caelum_overview {
   background-image: url("images/caelum_brand_ov.jpg");
 }
 
-/* line 92, sass/_partials/_brand_overview.scss */
+/* line 94, sass/_partials/_brand_overview.scss */
 .blvd_overview {
   background-image: url("images/blvd_brands_bo.jpg");
 }
