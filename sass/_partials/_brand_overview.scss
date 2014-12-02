@@ -47,14 +47,20 @@ $medium-screen: em(640);
     color: transparentize(white, .3);
     font-size: 2em;
     font-weight: 200;  
-    padding-top: 1.5em;
+    padding: 1.5em 4.5em; 
     text-align: center;
     display:table;
+    width:100%;
+    @include media ($tablet){
+      padding: 1.5em 0.5em;
+    }
   }
 
   .hover-logo{
     display:table-cell;
     vertical-align: middle;
+    text-align:center;
+    width:50%;
   }
 
   .hover-tile-hidden {
@@ -69,19 +75,19 @@ $medium-screen: em(640);
 }
 
 .abbot_overview{
-  background: url("images/am_brand_ov.jpg");
+  background-image: url("images/am_brand_ov.jpg");
 }
 .onebxwd_overview{
-  background: url("images/bxwd_city_bo.jpg");
+  background-image: url("images/bxwd_city_bo.jpg");
 }
 .dg_overview{
-  background: url("images/dg_brand_ov.jpg");
+  background-image: url("images/dg_brand_ov.jpg");
 }
 .pasion_overview{
-  background: url("images/pasion_brand_ov.jpg");
+  background-image: url("images/pasion_brand_ov.jpg");
 }
 .caelum_overview{
-  background: url("images/caelum_brand_ov.jpg");
+  background-image: url("images/caelum_brand_ov.jpg");
 }
 
 

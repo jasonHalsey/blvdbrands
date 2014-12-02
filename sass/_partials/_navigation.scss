@@ -46,7 +46,7 @@ header.navigation {
   }
   padding-top: 28px; 
   @include clearfix;
-  border-bottom: 1px solid darken($navigation-background, 10);
+  // border-bottom: 1px solid darken($navigation-background, 10);
   width: 100%;
   z-index: 999;
 
@@ -111,9 +111,6 @@ header.navigation {
     @include span-columns(12);
     @include media ($tablet){
       position:absolute;
-      // width:100%;
-
-
     }
   }
 
@@ -129,7 +126,9 @@ header.navigation {
       float: left;
     }
     @include media ($tablet) {
-      @include span-columns(9);
+      @include span-columns(12);
+      position:absolute;
+      left: 0;
     }
   }
 
