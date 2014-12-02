@@ -83,6 +83,21 @@ get_header(); ?>
 		  </div>
 		</div>
 
+		<div class="hover-tile-outer blvd_overview">
+			<a href="<?php bloginfo('url');?>"></a>
+		  <div class="hover-tile-container">
+		    <div class="hover-tile hover-tile-visible">
+		    	<div class="hover-logo">
+			      <img src="<?php bloginfo('template_directory'); ?>/images/blvd_brands_logo.png" class="" />
+			    </div>
+		    </div>
+		    <div class="hover-tile hover-tile-hidden">
+		      <h4>Back to Home</h4>
+		      <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Unde, hic, dolore, labore,provident eligendi fugiat ad exercitationem.</p>
+		    </div>
+		  </div>
+		</div>
+
 	</div><!-- end .brand-container -->
 
 

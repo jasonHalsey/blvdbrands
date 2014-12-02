@@ -1671,3 +1671,8 @@ svg#brander path {
 .caelum_overview {
   background-image: url("images/caelum_brand_ov.jpg");
 }
+
+/* line 92, sass/_partials/_brand_overview.scss */
+.blvd_overview {
+  background-image: url("images/blvd_brands_bo.jpg");
+}
