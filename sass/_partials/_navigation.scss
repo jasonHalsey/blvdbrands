@@ -13,7 +13,6 @@ header.clone {
     position:fixed;
     top:-130px;
     transition:0.4s top ease-in;
-    // background-color:rgba(0,0,0,0.5);
 }
 body.down header.clone {
     top:0;
@@ -46,7 +45,6 @@ header.navigation {
   }
   padding-top: 28px; 
   @include clearfix;
-  // border-bottom: 1px solid darken($navigation-background, 10);
   width: 100%;
   z-index: 999;
 
@@ -295,7 +293,7 @@ header.navigation {
         width: 100%;
 
         @include media($horizontal-bar-mode) {
-          background-color: $navigation-background;
+          background-color: rgba(0, 0, 0, 0.5);
           padding-left: $navigation-submenu-padding;
           text-align: left;
           width: $navigation-submenu-width;

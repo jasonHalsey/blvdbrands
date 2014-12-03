@@ -17,9 +17,9 @@
 			    <img src="https://raw.githubusercontent.com/thoughtbot/refills/master/source/images/placeholder_logo_1.png" alt="">
 			  </div>
 			    <ul>
-			      <li><a href="javascript:void(0)">About</a></li>
-			      <li><a href="javascript:void(0)">Contact</a></li>
-			      <li><a href="javascript:void(0)">Brands</a></li>
+			      <li><a href="<?php echo get_page_link( get_page_by_title( "story" )->ID ); ?>">Story</a></li>
+			      <li><a href="<?php echo get_page_link( get_page_by_title( "brands" )->ID ); ?>">Brands</a></li>
+			      <li><a href="<?php echo get_page_link( get_page_by_title( "contact" )->ID ); ?>">Contact</a></li>
 			    </ul>
 
 			    <div class="footer-secondary-links">
