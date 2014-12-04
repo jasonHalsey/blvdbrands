@@ -11,7 +11,7 @@ get_header(); ?>
 	<main>
 		<section class="module_brand content_brand">
 			<div class="container abbot_top">
-				<img src="<?php bloginfo('template_directory'); ?>/images/brand/am_static.jpg" /></a>
+				<img src="<?php bloginfo('template_directory'); ?>/images/brand/am_static.jpg" />
 				<div class="brand-content-wrapper">
 					<div class="brand-content">
 						<p>In 2012, Abbot + Main was founded with a fundamental premise: create a collection of wardrobe essentials for men and women focusing on soft-handed fabrications and thoughtful design elements.</p>
