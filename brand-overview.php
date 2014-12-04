@@ -68,12 +68,12 @@ get_header(); ?>
 		  </div>
 		</div>	
 
-		<div class="hover-tile-outer dg_overview">
-			<a href="<?php echo get_page_link( get_page_by_title( "dylangeorge" )->ID ); ?>"></a>
+<!-- 		<div class="hover-tile-outer dg_overview">
+			<a href="<?//php echo get_page_link( get_page_by_title( "dylangeorge" )->ID ); ?>"></a>
 		  <div class="hover-tile-container">
 		    <div class="hover-tile hover-tile-visible">
 		    	<div class="hover-logo">
-			      <img src="<?php bloginfo('template_directory'); ?>/images/brand/dg_brand_scroll.svg" class="" />
+			      <img src="<?//php bloginfo('template_directory'); ?>/images/brand/dg_brand_scroll.svg" class="" />
 			    </div>
 		    </div>
 		    <div class="hover-tile hover-tile-hidden">
@@ -81,7 +81,7 @@ get_header(); ?>
 		      <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Unde, hic, dolore, labore,provident eligendi fugiat ad exercitationem.</p>
 		    </div>
 		  </div>
-		</div>
+		</div> -->
 
 		<div class="hover-tile-outer blvd_overview">
 			<a href="<?php bloginfo('url');?>"></a>
