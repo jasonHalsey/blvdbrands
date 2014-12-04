@@ -28,11 +28,7 @@ get_header(); ?>
 
 	      <section class="module_brand content_brand">
 	        <div class="container abbot_top">
-	        	<div class="brand-content-wrapper">
-	        		<div class="brand-content">
-			          <!-- <p> Technical activewear fabrics, silky soft knits, and explosions of color, embody the spirit of an energetic lifestyle brand that will inspire everyone to live their healthiest life.</p> -->
-	         		</div>
-	          </div>
+
 	          <div class="brand-info-container">
 		          	<div class="brand-info">
 			          	<a href="http://www.dylangeorge.com"><img src="<?php bloginfo('template_directory'); ?>/images/brand/dg_brand_scroll_black.svg" class="svg" /></a><br />

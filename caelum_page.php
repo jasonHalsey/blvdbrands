@@ -16,6 +16,7 @@ get_header(); ?>
 					<div class="brand-content">
 						<h1>Caelum</h1>
 						<p>Inspired by the culture of an active lifestyle and the challenge to stay stylish and fit, Caelum blurs the lines that separate daily life, health, style and fitness. Every piece in the collection has a cool, edgey and modern look that can seamlessly be worn at the studio or gym, on the go, and dressed up for a night out.</p>
+						<p> Technical activewear fabrics, silky soft knits, and explosions of color, embody the spirit of an energetic lifestyle brand that will inspire everyone to live their healthiest life.</p>
 	         	 	</div>
 	         	 </div>
 			</div>
@@ -29,11 +30,7 @@ get_header(); ?>
 
 	      <section class="module_brand content_brand">
 	        <div class="container abbot_top">
-	        	<div class="brand-content-wrapper">
-	        		<div class="brand-content">
-			          <p> Technical activewear fabrics, silky soft knits, and explosions of color, embody the spirit of an energetic lifestyle brand that will inspire everyone to live their healthiest life.</p>
-	         		</div>
-	          </div>
+	        	
 	          <div class="brand-info-container">
 		          	<div class="brand-info">
 			          	<a href="http://www.caelumlifestyle.com"><img src="<?php bloginfo('template_directory'); ?>/images/brand/caelum_brand.svg" class="svg" id="brander"/></a><br />
