@@ -14,7 +14,7 @@ get_header(); ?>
 				<img src="<?php bloginfo('template_directory'); ?>/images/brand/dg_static.jpg" /></a>
 				<div class="brand-content-wrapper">
 					<div class="brand-content">
-						<p>Inspired by the culture of an active lifestyle and the challenge to stay stylish and fit, Caelum blurs the lines that separate daily life, health, style and fitness. Every piece in the collection has a cool, edgey and modern look that can seamlessly be worn at the studio or gym, on the go, and dressed up for a night out.</p>
+						<!-- <p>Inspired by the culture of an active lifestyle and the challenge to stay stylish and fit, Caelum blurs the lines that separate daily life, health, style and fitness. Every piece in the collection has a cool, edgey and modern look that can seamlessly be worn at the studio or gym, on the go, and dressed up for a night out.</p> -->
 	         	 	</div>
 	         	 </div>
 			</div>
@@ -30,7 +30,7 @@ get_header(); ?>
 	        <div class="container abbot_top">
 	        	<div class="brand-content-wrapper">
 	        		<div class="brand-content">
-			          <p> Technical activewear fabrics, silky soft knits, and explosions of color, embody the spirit of an energetic lifestyle brand that will inspire everyone to live their healthiest life.</p>
+			          <!-- <p> Technical activewear fabrics, silky soft knits, and explosions of color, embody the spirit of an energetic lifestyle brand that will inspire everyone to live their healthiest life.</p> -->
 	         		</div>
 	          </div>
 	          <div class="brand-info-container">

@@ -29,16 +29,21 @@
 }
 
 .empty_container.story{
-	
+	position:fixed;
+	z-index:100;
 	width:100%;
 	max-height:500px;
-	h2{
-		display: block;
-		position:fixed;
-		width:100%;
-		text-align: center;
-		color:#999;
+	img{
 		margin-top: 10%;
+		@include media ($tablet){
+			margin-top:20%;
+		}
+		@include media ($mobile){
+			margin-top:30%;
+		}
+		@include media ($phone){
+			margin-top:40%;
+		}
 	}
 }
 

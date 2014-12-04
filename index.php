@@ -34,12 +34,12 @@ get_header(); ?>
 
       
 
-   <!--    <section class="module parallax parallax-5">
+      <section class="module parallax parallax-5">
         <div class="home_container">
-          <a href="<?//php echo get_page_link( get_page_by_title( "dylangeorge" )->ID ); ?>"><img src="<?//php bloginfo('template_directory'); ?>/images/brand/dg_brand_scroll.svg" class="" id="drop-shadow"/></a>
+          <a href="<?php echo get_page_link( get_page_by_title( "dylangeorge" )->ID ); ?>"><img src="<?php bloginfo('template_directory'); ?>/images/brand/dg_brand_scroll.svg" class="" id="drop-shadow"/></a>
         </div>
       </section>
- -->
+ 
 
       <section class="module parallax parallax-4">
         <div class="home_container">

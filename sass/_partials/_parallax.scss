@@ -140,7 +140,8 @@ section.module_brand.content_brand {
   background-color: #fff;
   color:#000;
   margin-bottom: 0;
-
+  position: relative;
+  z-index: 200;
 }
 
 div.brand-content-wrapper{

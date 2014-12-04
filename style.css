@@ -1295,9 +1295,11 @@ section.module_brand.content_brand {
   background-color: #fff;
   color: #000;
   margin-bottom: 0;
+  position: relative;
+  z-index: 200;
 }
 
-/* line 146, sass/_partials/_parallax.scss */
+/* line 147, sass/_partials/_parallax.scss */
 div.brand-content-wrapper {
   height: 200px;
   max-width: 68em;
@@ -1312,17 +1314,17 @@ div.brand-content-wrapper:after {
   clear: both;
 }
 
-/* line 151, sass/_partials/_parallax.scss */
+/* line 152, sass/_partials/_parallax.scss */
 div.brand-content {
   display: table-cell;
   vertical-align: middle;
 }
-/* line 154, sass/_partials/_parallax.scss */
+/* line 155, sass/_partials/_parallax.scss */
 div.brand-content p {
   color: #666;
 }
 
-/* line 158, sass/_partials/_parallax.scss */
+/* line 159, sass/_partials/_parallax.scss */
 section.module.parallax_brand {
   height: 600px;
   background-position: 50% 50%;
@@ -1334,34 +1336,34 @@ section.module.parallax_brand {
   background-size: cover;
 }
 
-/* line 170, sass/_partials/_parallax.scss */
+/* line 171, sass/_partials/_parallax.scss */
 div.abbot_top p {
   margin-bottom: 0;
   padding: 0.5em 2.0em 0.5em;
 }
-/* line 174, sass/_partials/_parallax.scss */
+/* line 175, sass/_partials/_parallax.scss */
 div.abbot_top p:last-child {
   padding: 0.5em 2.0em 2.0em;
 }
 
 @media all and (min-width: 600px) {
-  /* line 180, sass/_partials/_parallax.scss */
+  /* line 181, sass/_partials/_parallax.scss */
   section.module h2 {
     font-size: 42px;
   }
 
-  /* line 183, sass/_partials/_parallax.scss */
+  /* line 184, sass/_partials/_parallax.scss */
   section.module p {
     font-size: 20px;
   }
 
-  /* line 186, sass/_partials/_parallax.scss */
+  /* line 187, sass/_partials/_parallax.scss */
   section.module.parallax h1 {
     font-size: 96px;
   }
 }
 @media all and (min-width: 960px) {
-  /* line 191, sass/_partials/_parallax.scss */
+  /* line 192, sass/_partials/_parallax.scss */
   section.module.parallax h1 {
     font-size: 160px;
   }
@@ -1427,25 +1429,40 @@ header {
 
 /* line 31, sass/_partials/_common.scss */
 .empty_container.story {
+  position: fixed;
+  z-index: 100;
   width: 100%;
   max-height: 500px;
 }
-/* line 35, sass/_partials/_common.scss */
-.empty_container.story h2 {
-  display: block;
-  position: fixed;
-  width: 100%;
-  text-align: center;
-  color: #999;
+/* line 36, sass/_partials/_common.scss */
+.empty_container.story img {
   margin-top: 10%;
 }
+@media screen and (max-width: 979px) {
+  /* line 36, sass/_partials/_common.scss */
+  .empty_container.story img {
+    margin-top: 20%;
+  }
+}
+@media screen and (max-width: 767px) {
+  /* line 36, sass/_partials/_common.scss */
+  .empty_container.story img {
+    margin-top: 30%;
+  }
+}
+@media screen and (max-width: 468px) {
+  /* line 36, sass/_partials/_common.scss */
+  .empty_container.story img {
+    margin-top: 40%;
+  }
+}
 
-/* line 46, sass/_partials/_common.scss */
+/* line 51, sass/_partials/_common.scss */
 svg#Layer_1 path {
   fill: #666;
 }
 
-/* line 52, sass/_partials/_common.scss */
+/* line 57, sass/_partials/_common.scss */
 svg#brander path {
   fill: #666;
 }
