@@ -1318,13 +1318,27 @@ div.brand-content-wrapper:after {
 div.brand-content {
   display: table-cell;
   vertical-align: middle;
+  padding-bottom: 2.0em;
 }
-/* line 155, sass/_partials/_parallax.scss */
+/* line 156, sass/_partials/_parallax.scss */
 div.brand-content p {
   color: #666;
+  line-height: 2.85em;
+}
+/* line 159, sass/_partials/_parallax.scss */
+div.brand-content p:first-child {
+  margin-top: 0.75em;
+}
+/* line 163, sass/_partials/_parallax.scss */
+div.brand-content h1 {
+  font-family: "proxima-nova",sans-serif;
+  color: #666;
+  line-height: 2.0em;
+  margin-top: 0.25em;
+  text-transform: uppercase;
 }
 
-/* line 159, sass/_partials/_parallax.scss */
+/* line 171, sass/_partials/_parallax.scss */
 section.module.parallax_brand {
   height: 600px;
   background-position: 50% 50%;
@@ -1336,34 +1350,34 @@ section.module.parallax_brand {
   background-size: cover;
 }
 
-/* line 171, sass/_partials/_parallax.scss */
+/* line 183, sass/_partials/_parallax.scss */
 div.abbot_top p {
   margin-bottom: 0;
   padding: 0.5em 2.0em 0.5em;
 }
-/* line 175, sass/_partials/_parallax.scss */
+/* line 187, sass/_partials/_parallax.scss */
 div.abbot_top p:last-child {
   padding: 0.5em 2.0em 2.0em;
 }
 
 @media all and (min-width: 600px) {
-  /* line 181, sass/_partials/_parallax.scss */
+  /* line 193, sass/_partials/_parallax.scss */
   section.module h2 {
     font-size: 42px;
   }
 
-  /* line 184, sass/_partials/_parallax.scss */
+  /* line 196, sass/_partials/_parallax.scss */
   section.module p {
     font-size: 20px;
   }
 
-  /* line 187, sass/_partials/_parallax.scss */
+  /* line 199, sass/_partials/_parallax.scss */
   section.module.parallax h1 {
     font-size: 96px;
   }
 }
 @media all and (min-width: 960px) {
-  /* line 192, sass/_partials/_parallax.scss */
+  /* line 204, sass/_partials/_parallax.scss */
   section.module.parallax h1 {
     font-size: 160px;
   }
@@ -1391,7 +1405,7 @@ header {
   float: left;
 }
 
-/* line 7, sass/_partials/_common.scss */
+/* line 4, sass/_partials/_common.scss */
 .brand-info-container {
   max-width: 68em;
   margin-left: auto;
@@ -1404,65 +1418,65 @@ header {
   display: table;
   clear: both;
 }
-/* line 10, sass/_partials/_common.scss */
+/* line 7, sass/_partials/_common.scss */
 .brand-info-container .brand-info {
   margin: 0 auto;
 }
-/* line 14, sass/_partials/_common.scss */
+/* line 9, sass/_partials/_common.scss */
 .brand-info-container .brand-info img {
   max-width: 50%;
 }
-/* line 17, sass/_partials/_common.scss */
+/* line 12, sass/_partials/_common.scss */
 .brand-info-container .brand-info a {
   color: #666;
 }
-/* line 19, sass/_partials/_common.scss */
+/* line 14, sass/_partials/_common.scss */
 .brand-info-container .brand-info a:hover {
   color: #c41200;
 }
 
-/* line 26, sass/_partials/_common.scss */
+/* line 21, sass/_partials/_common.scss */
 .wpgmaps_directions_outer_div {
   padding-left: 20px;
   padding-right: 20px;
 }
 
-/* line 31, sass/_partials/_common.scss */
+/* line 26, sass/_partials/_common.scss */
 .empty_container.story {
   position: fixed;
   z-index: 100;
   width: 100%;
   max-height: 500px;
 }
-/* line 36, sass/_partials/_common.scss */
+/* line 31, sass/_partials/_common.scss */
 .empty_container.story img {
   margin-top: 10%;
 }
 @media screen and (max-width: 979px) {
-  /* line 36, sass/_partials/_common.scss */
+  /* line 31, sass/_partials/_common.scss */
   .empty_container.story img {
     margin-top: 20%;
   }
 }
 @media screen and (max-width: 767px) {
-  /* line 36, sass/_partials/_common.scss */
+  /* line 31, sass/_partials/_common.scss */
   .empty_container.story img {
     margin-top: 30%;
   }
 }
 @media screen and (max-width: 468px) {
-  /* line 36, sass/_partials/_common.scss */
+  /* line 31, sass/_partials/_common.scss */
   .empty_container.story img {
     margin-top: 40%;
   }
 }
 
-/* line 51, sass/_partials/_common.scss */
+/* line 46, sass/_partials/_common.scss */
 svg#Layer_1 path {
   fill: #666;
 }
 
-/* line 57, sass/_partials/_common.scss */
+/* line 52, sass/_partials/_common.scss */
 svg#brander path {
   fill: #666;
 }
@@ -1680,38 +1694,39 @@ svg#brander path {
 /* line 70, sass/_partials/_brand_overview.scss */
 .hover-tile-outer .hover-tile-hidden h4 {
   margin-bottom: .5em;
+  text-transform: uppercase;
 }
-/* line 73, sass/_partials/_brand_overview.scss */
+/* line 74, sass/_partials/_brand_overview.scss */
 .hover-tile-outer .hover-tile-hidden p {
   color: rgba(255, 255, 255, 0.7);
 }
 
-/* line 79, sass/_partials/_brand_overview.scss */
+/* line 80, sass/_partials/_brand_overview.scss */
 .abbot_overview {
   background-image: url("images/am_brand_ov.jpg");
 }
 
-/* line 82, sass/_partials/_brand_overview.scss */
+/* line 83, sass/_partials/_brand_overview.scss */
 .onebxwd_overview {
   background-image: url("images/bxwd_city_bo.jpg");
 }
 
-/* line 85, sass/_partials/_brand_overview.scss */
+/* line 86, sass/_partials/_brand_overview.scss */
 .dg_overview {
   background-image: url("images/dg_brand_ov.jpg");
 }
 
-/* line 88, sass/_partials/_brand_overview.scss */
+/* line 89, sass/_partials/_brand_overview.scss */
 .pasion_overview {
   background-image: url("images/pasion_brand_ov.jpg");
 }
 
-/* line 91, sass/_partials/_brand_overview.scss */
+/* line 92, sass/_partials/_brand_overview.scss */
 .caelum_overview {
   background-image: url("images/caelum_brand_ov.jpg");
 }
 
-/* line 94, sass/_partials/_brand_overview.scss */
+/* line 95, sass/_partials/_brand_overview.scss */
 .blvd_overview {
   background-image: url("images/blvd_brands_bo.jpg");
 }

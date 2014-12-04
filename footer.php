@@ -14,7 +14,7 @@
 		<footer id="colophon" class="site-footer footer-2" role="contentinfo">
 			<div id="footer-container">	
 			  <div class="footer-logo">
-			    <img src="https://raw.githubusercontent.com/thoughtbot/refills/master/source/images/placeholder_logo_1.png" alt="">
+			    <a href="<?php bloginfo('url');?>"><img src="<?php bloginfo('template_directory'); ?>/images/brand/blvd_brands_icon.png" class="" /></a>
 			  </div>
 			    <ul>
 			      <li><a href="<?php echo get_page_link( get_page_by_title( "story" )->ID ); ?>">Story</a></li>

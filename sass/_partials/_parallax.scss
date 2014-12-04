@@ -152,8 +152,20 @@ div.brand-content-wrapper{
 div.brand-content{
   display: table-cell; 
   vertical-align: middle;
+  padding-bottom: 2.0em;
   p{
     color:#666;
+    line-height:2.85em;
+    &:first-child{
+      margin-top: 0.75em;
+    }
+  }
+  h1{
+    font-family: "proxima-nova",sans-serif;
+    color:#666;
+    line-height:2.0em;
+    margin-top: 0.25em;
+    text-transform: uppercase;
   }
 }
 section.module.parallax_brand {

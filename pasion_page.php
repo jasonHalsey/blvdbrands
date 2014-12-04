@@ -14,6 +14,7 @@ get_header(); ?>
 				<img src="<?php bloginfo('template_directory'); ?>/images/brand/pasion_static.jpg" /></a>
 				<div class="brand-content-wrapper">
 					<div class="brand-content">
+						<h1>Pasión</h1>
 						<p>Born from a desire to create an entirely new kind of tequila, amid a region known for tradition and heritage, Pasión takes its mission and name from pasión de mujer, the “passion of a woman.”  The setting: a family-run, expansive distillery in Amatitán, Jalisco.  </p>
 	         		</div>
 	         	</div>

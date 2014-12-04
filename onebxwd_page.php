@@ -14,6 +14,7 @@ get_header(); ?>
 				<img src="<?php bloginfo('template_directory'); ?>/images/brand/onebxwd_static.jpg" />
 				<div class="brand-content-wrapper">
 					<div class="brand-content">
+						<h1>ONE BXWD</h1>
 						<p>Inspired by elements of the 1990s Los Angeles street wear style with its modern well thought out fabrications conducive for todays active individual.</p>
 	         		</div>
 	         	</div>

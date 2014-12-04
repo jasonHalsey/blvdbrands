@@ -1,15 +1,10 @@
 .right{float:right}
 .left{float:left}
 
-#main{
-	// padding-top:96px;
-}
 .brand-info-container{
 	@include outer-container;
 		margin-bottom: 4.5em;
 	.brand-info{
-		// @include span-columns(4);
-		// @include shift(4);
 		margin: 0 auto;
 		img{
 			max-width: 50%;

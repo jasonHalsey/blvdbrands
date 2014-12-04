@@ -17,8 +17,8 @@ get_header(); ?>
 		 		</div>
 		    </div>
 		    <div class="hover-tile hover-tile-hidden">
-		      <h4>Hidden Copy</h4>
-		      <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Unde, hic, dolore, labore,provident eligendi fugiat ad exercitationem.</p>
+		      <h4>ABBOT + MAIN</h4>
+		      <p></p>
 		    </div>
 		  </div>
 		</div>
@@ -32,8 +32,8 @@ get_header(); ?>
 		      	</div>
 		    </div>
 		    <div class="hover-tile hover-tile-hidden">
-		      <h4>Hidden Copy</h4>
-		      <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Unde, hic, dolore, labore,provident eligendi fugiat ad exercitationem.</p>
+		      <h4>CAELUM</h4>
+		      <p></p>
 		    </div>
 		  </div>
 		</div>
@@ -47,8 +47,8 @@ get_header(); ?>
 		      	</div>
 		    </div>
 		    <div class="hover-tile hover-tile-hidden">
-		      <h4>Hidden Copy</h4>
-		      <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Unde, hic, dolore, labore,provident eligendi fugiat ad exercitationem.</p>
+		      <h4>ONE BXWD</h4>
+		      <p></p>
 		    </div>
 		  </div>
 		</div>
@@ -62,8 +62,8 @@ get_header(); ?>
 			    </div>
 		    </div>
 		    <div class="hover-tile hover-tile-hidden">
-		      <h4>Hidden Copy</h4>
-		      <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Unde, hic, dolore, labore,provident eligendi fugiat ad exercitationem.</p>
+		      <h4>Pasión</h4>
+		      <p></p>
 		    </div>
 		  </div>
 		</div>	
@@ -77,8 +77,8 @@ get_header(); ?>
 			    </div>
 		    </div>
 		    <div class="hover-tile hover-tile-hidden">
-		      <h4>Hidden Copy</h4>
-		      <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Unde, hic, dolore, labore,provident eligendi fugiat ad exercitationem.</p>
+		      <h4>Dylan George</h4>
+		      <p></p>
 		    </div>
 		  </div>
 		</div>
@@ -93,7 +93,7 @@ get_header(); ?>
 		    </div>
 		    <div class="hover-tile hover-tile-hidden">
 		      <h4>Back to Home</h4>
-		      <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Unde, hic, dolore, labore,provident eligendi fugiat ad exercitationem.</p>
+		      <p></p>
 		    </div>
 		  </div>
 		</div>

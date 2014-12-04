@@ -69,6 +69,7 @@ $medium-screen: em(640);
     background: transparentize(black, .2);
     h4 {
       margin-bottom: .5em;
+      text-transform: uppercase;
     }
     p {
       color: transparentize(white, .3);
