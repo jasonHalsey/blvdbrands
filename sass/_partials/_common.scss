@@ -7,6 +7,8 @@
 	.brand-info{
 		margin: 0 auto;
 		img{
+			width:100%;
+			height: auto;
 			max-width: 50%;
 		}
 		a{
@@ -14,6 +16,10 @@
 			&:hover{
 				color:#c41200;
 			}
+		}
+		svg{
+			width:100%;
+			height: auto;
 		}
 	}
 }
