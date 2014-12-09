@@ -42,7 +42,7 @@ section.module.parallax {
   display:table;
   @include media($phone){
     height: 300px;
-    width:400px;
+    width:100%;
     background-position: 50% 50%;
     background-repeat: no-repeat;
     background-attachment: fixed;
@@ -176,6 +176,7 @@ div.brand-content{
   p{
     color:#666;
     line-height:2.85em;
+    padding:0 0.75em;
     &:first-child{
       margin-top: 0.75em;
     }

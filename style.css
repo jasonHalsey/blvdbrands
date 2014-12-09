@@ -1182,7 +1182,7 @@ section.module.parallax {
   /* line 32, sass/_partials/_parallax.scss */
   section.module.parallax {
     height: 300px;
-    width: 400px;
+    width: 100%;
     background-position: 50% 50%;
     background-repeat: no-repeat;
     background-attachment: fixed;
@@ -1358,12 +1358,13 @@ div.brand-content {
 div.brand-content p {
   color: #666;
   line-height: 2.85em;
+  padding: 0 0.75em;
 }
-/* line 179, sass/_partials/_parallax.scss */
+/* line 180, sass/_partials/_parallax.scss */
 div.brand-content p:first-child {
   margin-top: 0.75em;
 }
-/* line 183, sass/_partials/_parallax.scss */
+/* line 184, sass/_partials/_parallax.scss */
 div.brand-content h1 {
   font-family: "proxima-nova",sans-serif;
   color: #666;
@@ -1372,7 +1373,7 @@ div.brand-content h1 {
   text-transform: uppercase;
 }
 
-/* line 191, sass/_partials/_parallax.scss */
+/* line 192, sass/_partials/_parallax.scss */
 section.module.parallax_brand {
   height: 600px;
   background-position: 50% 50%;
@@ -1384,34 +1385,34 @@ section.module.parallax_brand {
   background-size: cover;
 }
 
-/* line 203, sass/_partials/_parallax.scss */
+/* line 204, sass/_partials/_parallax.scss */
 div.abbot_top p {
   margin-bottom: 0;
   padding: 0.5em 2.0em 1.5em;
 }
-/* line 207, sass/_partials/_parallax.scss */
+/* line 208, sass/_partials/_parallax.scss */
 div.abbot_top p:last-child {
   padding: 0.5em 2.0em 2.0em;
 }
 
 @media all and (min-width: 600px) {
-  /* line 213, sass/_partials/_parallax.scss */
+  /* line 214, sass/_partials/_parallax.scss */
   section.module h2 {
     font-size: 42px;
   }
 
-  /* line 216, sass/_partials/_parallax.scss */
+  /* line 217, sass/_partials/_parallax.scss */
   section.module p {
     font-size: 20px;
   }
 
-  /* line 219, sass/_partials/_parallax.scss */
+  /* line 220, sass/_partials/_parallax.scss */
   section.module.parallax h1 {
     font-size: 96px;
   }
 }
 @media all and (min-width: 960px) {
-  /* line 224, sass/_partials/_parallax.scss */
+  /* line 225, sass/_partials/_parallax.scss */
   section.module.parallax h1 {
     font-size: 160px;
   }
@@ -1517,13 +1518,20 @@ header {
     margin-top: 40%;
   }
 }
+@media screen and (max-width: 979px) {
+  /* line 35, sass/_partials/_common.scss */
+  .empty_container.story {
+    position: relative;
+    margin-top: 40%;
+  }
+}
 
-/* line 55, sass/_partials/_common.scss */
+/* line 59, sass/_partials/_common.scss */
 svg#Layer_1 path {
   fill: #666;
 }
 
-/* line 61, sass/_partials/_common.scss */
+/* line 65, sass/_partials/_common.scss */
 svg#brander path {
   fill: #666;
 }
