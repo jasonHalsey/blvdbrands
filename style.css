@@ -1536,6 +1536,11 @@ svg#brander path {
   fill: #666;
 }
 
+/* line 70, sass/_partials/_common.scss */
+.story_img img {
+  margin-bottom: -6px !important;
+}
+
 /* line 6, sass/_partials/_contact.scss */
 .contact-mod {
   width: 100%;

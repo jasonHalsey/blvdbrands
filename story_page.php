@@ -28,7 +28,7 @@ get_header(); ?>
 	      </section>
 
 	      <section class="module_brand content_brand">
-			<div class="container">
+			<div class="container story_img">
 				<img src="<?php bloginfo('template_directory'); ?>/images/storypage_bottom.jpg" />
 			</div>
 		</section>
