@@ -198,6 +198,9 @@ section.module.parallax_brand {
   -moz-background-size: cover;
   -o-background-size: cover;
   background-size: cover;
+  @include media ($tablet){
+    height: 300px;
+  }
 }
 
 div.abbot_top{
