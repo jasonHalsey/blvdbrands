@@ -21,24 +21,6 @@ jQuery(document).ready(function() {
 
 });
 
-// $(window).bind('resize', function(){
-// 	if(Modernizr.mq('(min-device-width: 800px)')){
-// 		console.log("modern if statement");
-// 		var $header = $("header.navigation"),
-// 	        $clone = $header.before($header.clone().addClass("clone"));
-// 	    jQuery('header.navigation').addClass("semi-trans");
-// 	    jQuery(window).on("scroll", function() {
-// 	        var fromTop = $(window).scrollTop();
-// 	        // console.log(fromTop);
-// 	        jQuery("body").toggleClass("down", (fromTop > 100));
-// 	        jQuery('header.navigation').removeClass("semi-trans", (fromTop > 120));
-// 	        jQuery('header.navigation').toggleClass("very-trans", (fromTop > 100));
-// 	        jQuery('header.navigation').toggleClass("semi-trans", (fromTop < 100));
-// 	    });
-// 	};
-
-// });
-
 
 // Change opacity of svg on hover //
 $("img#drop-shadow").hover(
@@ -98,28 +80,39 @@ jQuery(document).ready(function() {
 	        window.location = linkLocation;
 	    }
 
-
+	   // Link Brand Overview Block to Appropriate Page
 	    $(".hover-tile-outer").click(function(){
     		if($(this).find("a").length){
         	window.location.href = $(this).find("a:first").attr("href");
-    	}
-});
+    		}
+    	});
+    	// Link Contact Page Blocks 
+	    $(".contact_path").click(function(){
+    		if($(this).find("a").length){
+        	window.location.href = $(this).find("a:first").attr("href");
+    		}
+    	});
+    	// Link Center Contact Page Block 
+	    $(".center_path").click(function(){
+    		if($(this).find("a").length){
+        	window.location.href = $(this).find("a:first").attr("href");
+    		}
+    	});
+
 
 }); //End document.ready();
 
 
 
-// jquery(window).load(function(){
 jQuery(document).ready(function() {
- /*
-   * Replace all SVG images with inline SVG
- */
+
+  //Replace all SVG images with inline SVG
   jQuery('img.svg').each(function(){
       var $img = jQuery(this);
       var imgID = $img.attr('id');
       var imgClass = $img.attr('class');
       var imgURL = $img.attr('src');
-console.log('SVG fired');
+
       jQuery.get(imgURL, function(data) {
           // Get the SVG tag, ignore the rest
           var $svg = jQuery(data).find('svg');
