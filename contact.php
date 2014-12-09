@@ -17,8 +17,7 @@ get_header(); ?>
 				<span class="sales_icon"><img src="<?php bloginfo('template_directory'); ?>/images/sales_icon.svg" /></span>
 			</div>
 			<h2>sales</h2>
-			<!-- <p>Lisa DiGuilo</p> -->
-			<p>sales@beachhousellc.com</p>
+			<p>sales@blvdbrandsllc.com</p>
 		</div>
 
 		<div class="contact_path">
@@ -26,9 +25,8 @@ get_header(); ?>
 				<span class="pr_icon"><img src="<?php bloginfo('template_directory'); ?>/images/pr_icon.svg" /></span>
 			</div>
 			<h2>pr</h2>
-			<p>Fingerprint Communications</p>
-			<p>Alex Sclavos</p>
-			<p>alex@fingerprintcom.net</p>
+			
+			<p>pr@blvdbrandsllc.com</p>
 		</div>
 
 		<div class="center_path">
@@ -53,7 +51,7 @@ get_header(); ?>
 				<span class="email_icon"><img src="<?php bloginfo('template_directory'); ?>/images/email_icon.svg" /></span>
 			</div>
 			<h2>email</h2>
-			<p>info@ph1llc.com</p>
+			<p>info@blvdbrandsllc.com</p>
 		</div>
 
 	</section>

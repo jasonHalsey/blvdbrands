@@ -40,6 +40,20 @@ section.module.parallax {
   -o-background-size: cover;
   background-size: cover;
   display:table;
+  @include media($phone){
+    height: 300px;
+    width:400px;
+    background-position: 50% 50%;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+  }
+  @include media($mobile){
+    height: 300px;
+  }
 }
 section.module.parallax h1 {
   color: rgba(255, 255, 255, 0.8);
@@ -49,6 +63,12 @@ section.module.parallax h1 {
   text-align: center;
   text-transform: uppercase;
   text-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+  @include media($phone){
+    line-height: 300px;
+  }
+  @include media($mobile){
+    line-height: 150px;
+  }
 }
 
 
