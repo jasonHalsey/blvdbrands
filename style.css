@@ -1,5 +1,5 @@
 @charset "UTF-8";
-/* line 5, ../../../../../../../Users/jason/.rvm/gems/ruby-2.1.2/gems/compass-core-1.0.1/stylesheets/compass/reset/_utilities.scss */
+/* line 5, ../../../../../../../Users/jasonhalsey/.rvm/gems/ruby-1.9.3-p484/gems/compass-core-1.0.3/stylesheets/compass/reset/_utilities.scss */
 html, body, div, span, applet, object, iframe,
 h1, h2, h3, h4, h5, h6, p, blockquote, pre,
 a, abbr, acronym, address, big, cite, code,
@@ -21,45 +21,45 @@ time, mark, audio, video {
   vertical-align: baseline;
 }
 
-/* line 22, ../../../../../../../Users/jason/.rvm/gems/ruby-2.1.2/gems/compass-core-1.0.1/stylesheets/compass/reset/_utilities.scss */
+/* line 22, ../../../../../../../Users/jasonhalsey/.rvm/gems/ruby-1.9.3-p484/gems/compass-core-1.0.3/stylesheets/compass/reset/_utilities.scss */
 html {
   line-height: 1;
 }
 
-/* line 24, ../../../../../../../Users/jason/.rvm/gems/ruby-2.1.2/gems/compass-core-1.0.1/stylesheets/compass/reset/_utilities.scss */
+/* line 24, ../../../../../../../Users/jasonhalsey/.rvm/gems/ruby-1.9.3-p484/gems/compass-core-1.0.3/stylesheets/compass/reset/_utilities.scss */
 ol, ul {
   list-style: none;
 }
 
-/* line 26, ../../../../../../../Users/jason/.rvm/gems/ruby-2.1.2/gems/compass-core-1.0.1/stylesheets/compass/reset/_utilities.scss */
+/* line 26, ../../../../../../../Users/jasonhalsey/.rvm/gems/ruby-1.9.3-p484/gems/compass-core-1.0.3/stylesheets/compass/reset/_utilities.scss */
 table {
   border-collapse: collapse;
   border-spacing: 0;
 }
 
-/* line 28, ../../../../../../../Users/jason/.rvm/gems/ruby-2.1.2/gems/compass-core-1.0.1/stylesheets/compass/reset/_utilities.scss */
+/* line 28, ../../../../../../../Users/jasonhalsey/.rvm/gems/ruby-1.9.3-p484/gems/compass-core-1.0.3/stylesheets/compass/reset/_utilities.scss */
 caption, th, td {
   text-align: left;
   font-weight: normal;
   vertical-align: middle;
 }
 
-/* line 30, ../../../../../../../Users/jason/.rvm/gems/ruby-2.1.2/gems/compass-core-1.0.1/stylesheets/compass/reset/_utilities.scss */
+/* line 30, ../../../../../../../Users/jasonhalsey/.rvm/gems/ruby-1.9.3-p484/gems/compass-core-1.0.3/stylesheets/compass/reset/_utilities.scss */
 q, blockquote {
   quotes: none;
 }
-/* line 103, ../../../../../../../Users/jason/.rvm/gems/ruby-2.1.2/gems/compass-core-1.0.1/stylesheets/compass/reset/_utilities.scss */
+/* line 103, ../../../../../../../Users/jasonhalsey/.rvm/gems/ruby-1.9.3-p484/gems/compass-core-1.0.3/stylesheets/compass/reset/_utilities.scss */
 q:before, q:after, blockquote:before, blockquote:after {
   content: "";
   content: none;
 }
 
-/* line 32, ../../../../../../../Users/jason/.rvm/gems/ruby-2.1.2/gems/compass-core-1.0.1/stylesheets/compass/reset/_utilities.scss */
+/* line 32, ../../../../../../../Users/jasonhalsey/.rvm/gems/ruby-1.9.3-p484/gems/compass-core-1.0.3/stylesheets/compass/reset/_utilities.scss */
 a img {
   border: none;
 }
 
-/* line 116, ../../../../../../../Users/jason/.rvm/gems/ruby-2.1.2/gems/compass-core-1.0.1/stylesheets/compass/reset/_utilities.scss */
+/* line 116, ../../../../../../../Users/jasonhalsey/.rvm/gems/ruby-1.9.3-p484/gems/compass-core-1.0.3/stylesheets/compass/reset/_utilities.scss */
 article, aside, details, figcaption, figure, footer, header, hgroup, main, menu, nav, section, summary {
   display: block;
 }
@@ -1451,7 +1451,8 @@ header {
   max-width: 68em;
   margin-left: auto;
   margin-right: auto;
-  margin: 4.5em auto;
+  margin: 0 auto 4.5em;
+  padding-top: 4.5em;
 }
 /* line 15, sass/bourbon/addons/_clearfix.scss */
 .brand-info-container:after {
@@ -1459,114 +1460,108 @@ header {
   display: table;
   clear: both;
 }
-/* line 7, sass/_partials/_common.scss */
+/* line 8, sass/_partials/_common.scss */
 .brand-info-container .brand-info {
   margin: 0 auto;
 }
-/* line 9, sass/_partials/_common.scss */
+/* line 10, sass/_partials/_common.scss */
 .brand-info-container .brand-info img {
   width: 100%;
   height: auto;
   max-width: 50%;
 }
-/* line 14, sass/_partials/_common.scss */
+/* line 15, sass/_partials/_common.scss */
 .brand-info-container .brand-info a {
   color: #666;
 }
-/* line 16, sass/_partials/_common.scss */
+/* line 17, sass/_partials/_common.scss */
 .brand-info-container .brand-info a:hover {
   color: #c41200;
 }
-/* line 20, sass/_partials/_common.scss */
+/* line 21, sass/_partials/_common.scss */
 .brand-info-container .brand-info svg {
   width: 100%;
   height: auto;
 }
 @media screen and (max-width: 468px) {
-  /* line 20, sass/_partials/_common.scss */
+  /* line 21, sass/_partials/_common.scss */
   .brand-info-container .brand-info svg {
     width: 80%;
   }
 }
 
-/* line 30, sass/_partials/_common.scss */
+/* line 31, sass/_partials/_common.scss */
 .wpgmaps_directions_outer_div {
   padding-left: 20px;
   padding-right: 20px;
 }
 
-/* line 35, sass/_partials/_common.scss */
+/* line 36, sass/_partials/_common.scss */
 .empty_container.story {
   position: fixed;
   z-index: 100;
   width: 100%;
   max-height: 500px;
 }
-/* line 40, sass/_partials/_common.scss */
+/* line 41, sass/_partials/_common.scss */
 .empty_container.story img {
   margin-top: 10%;
 }
 @media screen and (max-width: 979px) {
-  /* line 40, sass/_partials/_common.scss */
+  /* line 41, sass/_partials/_common.scss */
   .empty_container.story img {
     margin-top: 20%;
   }
 }
 @media screen and (max-width: 767px) {
-  /* line 40, sass/_partials/_common.scss */
+  /* line 41, sass/_partials/_common.scss */
   .empty_container.story img {
     margin-top: 30%;
   }
 }
 @media screen and (max-width: 468px) {
-  /* line 40, sass/_partials/_common.scss */
+  /* line 41, sass/_partials/_common.scss */
   .empty_container.story img {
     margin-top: 40%;
   }
 }
 @media screen and (max-width: 979px) {
-  /* line 35, sass/_partials/_common.scss */
+  /* line 36, sass/_partials/_common.scss */
   .empty_container.story {
     position: relative;
     margin-top: 2%;
   }
 }
 
-/* line 59, sass/_partials/_common.scss */
+/* line 60, sass/_partials/_common.scss */
 svg#Layer_1 path {
   fill: #666;
 }
 
-/* line 65, sass/_partials/_common.scss */
+/* line 66, sass/_partials/_common.scss */
 svg#brander path {
   fill: #666;
 }
 
-/* line 70, sass/_partials/_common.scss */
+/* line 71, sass/_partials/_common.scss */
 .story_img img {
   margin-bottom: -6px !important;
 }
 
 /* line 102, sass/_partials/_textures.scss */
 .texture {
-  height: 5em;
+  height: 100%;
   width: 100%;
 }
 /* line 108, sass/_partials/_textures.scss */
 .texture .texture-normal {
-  background: url("https://raw.githubusercontent.com/thoughtbot/refills/master/source/images/textures/diagonal-noise.png"), -webkit-linear-gradient(180deg, #e1f2f1, #bae0de), center no-repeat #e1f2f1 scroll;
-  background: url("https://raw.githubusercontent.com/thoughtbot/refills/master/source/images/textures/diagonal-noise.png"), linear-gradient(180deg, #e1f2f1, #bae0de), center no-repeat #e1f2f1 scroll;
-  float: left;
-  height: 5em;
-  width: 50%;
+  background: url("https://raw.githubusercontent.com/thoughtbot/refills/master/source/images/textures/white_texture.png"), -webkit-linear-gradient(180deg, white, #cccccc), center no-repeat white scroll;
+  background: url("https://raw.githubusercontent.com/thoughtbot/refills/master/source/images/textures/white_texture.png"), linear-gradient(180deg, white, #cccccc), center no-repeat white scroll;
 }
 /* line 116, sass/_partials/_textures.scss */
 .texture .texture-inverted {
-  background: url("https://raw.githubusercontent.com/thoughtbot/refills/master/source/images/textures/inverted/diagonal-noise.png"), -webkit-linear-gradient(180deg, #e1f2f1, #bae0de), center no-repeat #e1f2f1 scroll;
-  background: url("https://raw.githubusercontent.com/thoughtbot/refills/master/source/images/textures/inverted/diagonal-noise.png"), linear-gradient(180deg, #e1f2f1, #bae0de), center no-repeat #e1f2f1 scroll;
-  float: left;
-  height: 5em;
-  width: 50%;
+  background: url("https://raw.githubusercontent.com/thoughtbot/refills/master/source/images/textures/inverted/white_texture.png"), -webkit-linear-gradient(180deg, white, #cccccc), center no-repeat white scroll;
+  background: url("https://raw.githubusercontent.com/thoughtbot/refills/master/source/images/textures/inverted/white_texture.png"), linear-gradient(180deg, white, #cccccc), center no-repeat white scroll;
 }
 
 /* line 6, sass/_partials/_contact.scss */

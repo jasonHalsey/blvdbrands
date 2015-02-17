@@ -3,7 +3,8 @@
 
 .brand-info-container{
 	@include outer-container;
-		margin: 4.5em auto; 
+		margin: 0 auto 4.5em; 
+		padding-top:4.5em;
 	.brand-info{
 		margin: 0 auto;
 		img{
