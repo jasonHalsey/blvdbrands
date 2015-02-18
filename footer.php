@@ -17,10 +17,9 @@
 			    <a href="<?php bloginfo('url');?>"><img src="<?php bloginfo('template_directory'); ?>/images/brand/blvd_brands_icon.png" class="" /></a>
 			  </div>
 			    <ul>
-			      <li><a href="<?php echo get_page_link( get_page_by_title( '/story' )->ID ); ?>">Story</a></li>
-
-			      <li><a href="<?php echo get_page_link( get_page_by_title( '/our-brands' )->ID ); ?>">Brands</a></li>
-			      <li><a href="<?php echo get_page_link( get_page_by_title( '/contact-us' )->ID ); ?>">Contact</a></li>
+	     		  <li><a href="story">Story</a></li>
+			      <li><a href="our-brands">Brands</a></li>
+			      <li><a href="contact-us">Contact</a></li>
 			    </ul>
 
 			    <div class="footer-secondary-links">
