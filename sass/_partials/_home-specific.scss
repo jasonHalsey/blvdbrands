@@ -1,0 +1,18 @@
+$texture-top-background: lighten(#FFFFFF, 1%);
+  $texture-bottom-background: darken(#E5E5E5, 10%);
+.texture {
+  
+  height: 100%;
+  width: 100%;
+
+  .texture-normal {
+    // gradient color 1, gradient color 2, gradient angle, texture-number, 0=inverted or 1=normal  
+    @include texture(180deg, $texture-top-background, $texture-bottom-background, 16, 1); 
+  }
+
+  .texture-inverted {
+    // gradient color 1, gradient color 2, gradient angle, texture-number, 0=inverted or 1=normal  
+    @include texture(180deg, $texture-top-background, $texture-bottom-background, 16, 0); 
+
+  }
+}

@@ -9,10 +9,10 @@ get_header(); ?>
 <div id="main-content" class="main-content">
 
 	<main>
-		<section class="module_brand content_brand">
-			<div class="container abbot_top">
+		<section class="module_brand content_brand texture">
+			<div class="container abbot_top texture-inverted">
 				<img src="<?php bloginfo('template_directory'); ?>/images/brand/am_static.jpg" />
-				<div class="brand-content-wrapper">
+				<div class="brand-content-wrapper ">
 					<div class="brand-content">
 						<h1>Abbot + Main</h1>
 						<p>In 2012, Abbot + Main was founded with a fundamental premise: create a collection of wardrobe essentials for men and women focusing on soft-handed fabrications and thoughtful design elements.</p>
@@ -30,8 +30,8 @@ get_header(); ?>
 	        </div>
 	      </section>
 
-	      <section class="module_brand content_brand">
-	        <div class="container abbot_top">
+	      <section class="module_brand content_brand texture">
+	        <div class="container abbot_top texture-inverted">
 	        	
 	          <div class="brand-info-container">
 		          	<div class="brand-info">

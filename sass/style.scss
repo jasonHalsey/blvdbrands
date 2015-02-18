@@ -1,9 +1,10 @@
-@import "compass";
+//@import "compass";
 @import "compass/reset";
 @import "bourbon/bourbon";
 @import "neat/neat";
 @import "base/base";
 @import "_partials/sizing";
+
 
 @import "_partials/sticky-header";
 @import "_partials/navigation";
@@ -11,5 +12,7 @@
 @import "_partials/parallax";
 @import "_partials/header";
 @import "_partials/common";
+@import "_partials/textures";
 @import "_partials/contact";
+@import "_partials/home-specific";
 @import "_partials/brand_overview";

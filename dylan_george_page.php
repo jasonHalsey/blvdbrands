@@ -9,8 +9,8 @@ get_header(); ?>
 <div id="main-content" class="main-content">
 
 	<main>
-		<section class="module_brand content_brand">
-			<div class="container abbot_top">
+		<section class="module_brand content_brand texture">
+			<div class="container abbot_top texture-inverted">
 				<img src="<?php bloginfo('template_directory'); ?>/images/brand/dg_static.jpg" /></a>
 				<div class="brand-content-wrapper">
 					<div class="brand-content">
@@ -26,8 +26,8 @@ get_header(); ?>
 	        </div>
 	      </section>
 
-	      <section class="module_brand content_brand">
-	        <div class="container abbot_top">
+	      <section class="module_brand content_brand texture">
+	        <div class="container abbot_top texture-inverted">
 
 	          <div class="brand-info-container">
 		          	<div class="brand-info">

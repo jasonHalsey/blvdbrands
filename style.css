@@ -1,5 +1,5 @@
 @charset "UTF-8";
-/* line 5, ../../../../../../../Users/jason/.rvm/gems/ruby-2.1.2/gems/compass-core-1.0.1/stylesheets/compass/reset/_utilities.scss */
+/* line 5, ../../../../../../../Users/jasonhalsey/.rvm/gems/ruby-1.9.3-p484/gems/compass-core-1.0.3/stylesheets/compass/reset/_utilities.scss */
 html, body, div, span, applet, object, iframe,
 h1, h2, h3, h4, h5, h6, p, blockquote, pre,
 a, abbr, acronym, address, big, cite, code,
@@ -21,45 +21,45 @@ time, mark, audio, video {
   vertical-align: baseline;
 }
 
-/* line 22, ../../../../../../../Users/jason/.rvm/gems/ruby-2.1.2/gems/compass-core-1.0.1/stylesheets/compass/reset/_utilities.scss */
+/* line 22, ../../../../../../../Users/jasonhalsey/.rvm/gems/ruby-1.9.3-p484/gems/compass-core-1.0.3/stylesheets/compass/reset/_utilities.scss */
 html {
   line-height: 1;
 }
 
-/* line 24, ../../../../../../../Users/jason/.rvm/gems/ruby-2.1.2/gems/compass-core-1.0.1/stylesheets/compass/reset/_utilities.scss */
+/* line 24, ../../../../../../../Users/jasonhalsey/.rvm/gems/ruby-1.9.3-p484/gems/compass-core-1.0.3/stylesheets/compass/reset/_utilities.scss */
 ol, ul {
   list-style: none;
 }
 
-/* line 26, ../../../../../../../Users/jason/.rvm/gems/ruby-2.1.2/gems/compass-core-1.0.1/stylesheets/compass/reset/_utilities.scss */
+/* line 26, ../../../../../../../Users/jasonhalsey/.rvm/gems/ruby-1.9.3-p484/gems/compass-core-1.0.3/stylesheets/compass/reset/_utilities.scss */
 table {
   border-collapse: collapse;
   border-spacing: 0;
 }
 
-/* line 28, ../../../../../../../Users/jason/.rvm/gems/ruby-2.1.2/gems/compass-core-1.0.1/stylesheets/compass/reset/_utilities.scss */
+/* line 28, ../../../../../../../Users/jasonhalsey/.rvm/gems/ruby-1.9.3-p484/gems/compass-core-1.0.3/stylesheets/compass/reset/_utilities.scss */
 caption, th, td {
   text-align: left;
   font-weight: normal;
   vertical-align: middle;
 }
 
-/* line 30, ../../../../../../../Users/jason/.rvm/gems/ruby-2.1.2/gems/compass-core-1.0.1/stylesheets/compass/reset/_utilities.scss */
+/* line 30, ../../../../../../../Users/jasonhalsey/.rvm/gems/ruby-1.9.3-p484/gems/compass-core-1.0.3/stylesheets/compass/reset/_utilities.scss */
 q, blockquote {
   quotes: none;
 }
-/* line 103, ../../../../../../../Users/jason/.rvm/gems/ruby-2.1.2/gems/compass-core-1.0.1/stylesheets/compass/reset/_utilities.scss */
+/* line 103, ../../../../../../../Users/jasonhalsey/.rvm/gems/ruby-1.9.3-p484/gems/compass-core-1.0.3/stylesheets/compass/reset/_utilities.scss */
 q:before, q:after, blockquote:before, blockquote:after {
   content: "";
   content: none;
 }
 
-/* line 32, ../../../../../../../Users/jason/.rvm/gems/ruby-2.1.2/gems/compass-core-1.0.1/stylesheets/compass/reset/_utilities.scss */
+/* line 32, ../../../../../../../Users/jasonhalsey/.rvm/gems/ruby-1.9.3-p484/gems/compass-core-1.0.3/stylesheets/compass/reset/_utilities.scss */
 a img {
   border: none;
 }
 
-/* line 116, ../../../../../../../Users/jason/.rvm/gems/ruby-2.1.2/gems/compass-core-1.0.1/stylesheets/compass/reset/_utilities.scss */
+/* line 116, ../../../../../../../Users/jasonhalsey/.rvm/gems/ruby-1.9.3-p484/gems/compass-core-1.0.3/stylesheets/compass/reset/_utilities.scss */
 article, aside, details, figcaption, figure, footer, header, hgroup, main, menu, nav, section, summary {
   display: block;
 }
@@ -1014,7 +1014,7 @@ html, body {
 
 /* line 23, sass/_partials/_footer.scss */
 .footer-2 {
-  background: #333;
+  background: #383838;
   padding: 2.5em 1.25em 1.25em;
   width: 100%;
 }
@@ -1263,11 +1263,16 @@ section.module.parallax-5dg {
 }
 
 /* line 99, sass/_partials/_parallax.scss */
+section.module.parallax-bs {
+  background-image: url("images/brand/bs_scroll.jpg");
+}
+
+/* line 102, sass/_partials/_parallax.scss */
 section.module.parallax-story {
   background-image: url("images/storypage_scroll.jpg");
 }
 
-/* line 103, sass/_partials/_parallax.scss */
+/* line 106, sass/_partials/_parallax.scss */
 div.home_container, div.home_container_onebxwd {
   width: 100%;
   height: 100%;
@@ -1277,31 +1282,31 @@ div.home_container, div.home_container_onebxwd {
   display: table-cell;
   vertical-align: middle;
 }
-/* line 111, sass/_partials/_parallax.scss */
+/* line 114, sass/_partials/_parallax.scss */
 div.home_container img, div.home_container_onebxwd img {
   margin: 0 auto;
 }
 
-/* line 119, sass/_partials/_parallax.scss */
+/* line 122, sass/_partials/_parallax.scss */
 div.home_container_onebxwd img {
   margin: 0px auto 0;
 }
 
-/* line 124, sass/_partials/_parallax.scss */
+/* line 127, sass/_partials/_parallax.scss */
 div.container {
   width: 100%;
   height: 100%;
   margin: 0 auto;
   text-align: center;
 }
-/* line 129, sass/_partials/_parallax.scss */
+/* line 132, sass/_partials/_parallax.scss */
 div.container img {
   margin: 0 auto;
   width: 100%;
   height: auto;
 }
 
-/* line 137, sass/_partials/_parallax.scss */
+/* line 140, sass/_partials/_parallax.scss */
 div.empty_container {
   width: 100%;
   height: auto;
@@ -1310,12 +1315,12 @@ div.empty_container {
   margin: 0 auto;
   text-align: center;
 }
-/* line 144, sass/_partials/_parallax.scss */
+/* line 147, sass/_partials/_parallax.scss */
 div.empty_container img {
   margin: 0 auto;
 }
 
-/* line 150, sass/_partials/_parallax.scss */
+/* line 153, sass/_partials/_parallax.scss */
 .shadowed {
   -webkit-filter: drop-shadow(4px 4px 2px rgba(0, 0, 0, 0.7));
   filter: url(shadow.svg#drop-shadow);
@@ -1324,7 +1329,7 @@ div.empty_container img {
   transition: 0.75s;
 }
 
-/* line 159, sass/_partials/_parallax.scss */
+/* line 162, sass/_partials/_parallax.scss */
 section.module_brand.content_brand {
   background-color: #fff;
   color: #000;
@@ -1333,7 +1338,7 @@ section.module_brand.content_brand {
   z-index: 200;
 }
 
-/* line 167, sass/_partials/_parallax.scss */
+/* line 170, sass/_partials/_parallax.scss */
 div.brand-content-wrapper {
   height: 200px;
   max-width: 68em;
@@ -1348,23 +1353,23 @@ div.brand-content-wrapper:after {
   clear: both;
 }
 
-/* line 172, sass/_partials/_parallax.scss */
+/* line 175, sass/_partials/_parallax.scss */
 div.brand-content {
   display: table-cell;
   vertical-align: middle;
   padding-bottom: 2.0em;
 }
-/* line 176, sass/_partials/_parallax.scss */
+/* line 179, sass/_partials/_parallax.scss */
 div.brand-content p {
   color: #666;
   line-height: 2.85em;
   padding: 0 0.75em;
 }
-/* line 180, sass/_partials/_parallax.scss */
+/* line 183, sass/_partials/_parallax.scss */
 div.brand-content p:first-child {
   margin-top: 0.75em;
 }
-/* line 184, sass/_partials/_parallax.scss */
+/* line 187, sass/_partials/_parallax.scss */
 div.brand-content h1 {
   font-family: "proxima-nova",sans-serif;
   color: #666;
@@ -1373,7 +1378,7 @@ div.brand-content h1 {
   text-transform: uppercase;
 }
 
-/* line 192, sass/_partials/_parallax.scss */
+/* line 195, sass/_partials/_parallax.scss */
 section.module.parallax_brand {
   height: 600px;
   background-position: 50% 50%;
@@ -1385,40 +1390,40 @@ section.module.parallax_brand {
   background-size: cover;
 }
 @media screen and (max-width: 979px) {
-  /* line 192, sass/_partials/_parallax.scss */
+  /* line 195, sass/_partials/_parallax.scss */
   section.module.parallax_brand {
     height: 300px;
   }
 }
 
-/* line 207, sass/_partials/_parallax.scss */
+/* line 210, sass/_partials/_parallax.scss */
 div.abbot_top p {
   margin-bottom: 0;
   padding: 0.5em 2.0em 1.5em;
 }
-/* line 211, sass/_partials/_parallax.scss */
+/* line 214, sass/_partials/_parallax.scss */
 div.abbot_top p:last-child {
   padding: 0.5em 2.0em 2.0em;
 }
 
 @media all and (min-width: 600px) {
-  /* line 217, sass/_partials/_parallax.scss */
+  /* line 220, sass/_partials/_parallax.scss */
   section.module h2 {
     font-size: 42px;
   }
 
-  /* line 220, sass/_partials/_parallax.scss */
+  /* line 223, sass/_partials/_parallax.scss */
   section.module p {
     font-size: 20px;
   }
 
-  /* line 223, sass/_partials/_parallax.scss */
+  /* line 226, sass/_partials/_parallax.scss */
   section.module.parallax h1 {
     font-size: 96px;
   }
 }
 @media all and (min-width: 960px) {
-  /* line 228, sass/_partials/_parallax.scss */
+  /* line 231, sass/_partials/_parallax.scss */
   section.module.parallax h1 {
     font-size: 160px;
   }
@@ -1451,7 +1456,8 @@ header {
   max-width: 68em;
   margin-left: auto;
   margin-right: auto;
-  margin: 4.5em auto;
+  margin: 0 auto 4.5em;
+  padding-top: 4.5em;
 }
 /* line 15, sass/bourbon/addons/_clearfix.scss */
 .brand-info-container:after {
@@ -1459,92 +1465,108 @@ header {
   display: table;
   clear: both;
 }
-/* line 7, sass/_partials/_common.scss */
+/* line 8, sass/_partials/_common.scss */
 .brand-info-container .brand-info {
   margin: 0 auto;
 }
-/* line 9, sass/_partials/_common.scss */
+/* line 10, sass/_partials/_common.scss */
 .brand-info-container .brand-info img {
   width: 100%;
   height: auto;
   max-width: 50%;
 }
-/* line 14, sass/_partials/_common.scss */
+/* line 15, sass/_partials/_common.scss */
 .brand-info-container .brand-info a {
   color: #666;
 }
-/* line 16, sass/_partials/_common.scss */
+/* line 17, sass/_partials/_common.scss */
 .brand-info-container .brand-info a:hover {
   color: #c41200;
 }
-/* line 20, sass/_partials/_common.scss */
+/* line 21, sass/_partials/_common.scss */
 .brand-info-container .brand-info svg {
   width: 100%;
   height: auto;
 }
 @media screen and (max-width: 468px) {
-  /* line 20, sass/_partials/_common.scss */
+  /* line 21, sass/_partials/_common.scss */
   .brand-info-container .brand-info svg {
     width: 80%;
   }
 }
 
-/* line 30, sass/_partials/_common.scss */
+/* line 31, sass/_partials/_common.scss */
 .wpgmaps_directions_outer_div {
   padding-left: 20px;
   padding-right: 20px;
 }
 
-/* line 35, sass/_partials/_common.scss */
+/* line 36, sass/_partials/_common.scss */
 .empty_container.story {
   position: fixed;
   z-index: 100;
   width: 100%;
   max-height: 500px;
 }
-/* line 40, sass/_partials/_common.scss */
+/* line 41, sass/_partials/_common.scss */
 .empty_container.story img {
   margin-top: 10%;
 }
 @media screen and (max-width: 979px) {
-  /* line 40, sass/_partials/_common.scss */
+  /* line 41, sass/_partials/_common.scss */
   .empty_container.story img {
     margin-top: 20%;
   }
 }
 @media screen and (max-width: 767px) {
-  /* line 40, sass/_partials/_common.scss */
+  /* line 41, sass/_partials/_common.scss */
   .empty_container.story img {
     margin-top: 30%;
   }
 }
 @media screen and (max-width: 468px) {
-  /* line 40, sass/_partials/_common.scss */
+  /* line 41, sass/_partials/_common.scss */
   .empty_container.story img {
     margin-top: 40%;
   }
 }
 @media screen and (max-width: 979px) {
-  /* line 35, sass/_partials/_common.scss */
+  /* line 36, sass/_partials/_common.scss */
   .empty_container.story {
     position: relative;
     margin-top: 2%;
   }
 }
 
-/* line 59, sass/_partials/_common.scss */
+/* line 60, sass/_partials/_common.scss */
 svg#Layer_1 path {
   fill: #666;
 }
 
-/* line 65, sass/_partials/_common.scss */
+/* line 66, sass/_partials/_common.scss */
 svg#brander path {
   fill: #666;
 }
 
-/* line 70, sass/_partials/_common.scss */
+/* line 71, sass/_partials/_common.scss */
 .story_img img {
   margin-bottom: -6px !important;
+}
+
+/* line 102, sass/_partials/_textures.scss */
+.texture {
+  height: 100%;
+  width: 100%;
+}
+/* line 108, sass/_partials/_textures.scss */
+.texture .texture-normal {
+  background: url("https://raw.githubusercontent.com/thoughtbot/refills/master/source/images/textures/white_texture.png"), -webkit-linear-gradient(180deg, white, #cccccc), center no-repeat white scroll;
+  background: url("https://raw.githubusercontent.com/thoughtbot/refills/master/source/images/textures/white_texture.png"), linear-gradient(180deg, white, #cccccc), center no-repeat white scroll;
+}
+/* line 116, sass/_partials/_textures.scss */
+.texture .texture-inverted {
+  background: url("https://raw.githubusercontent.com/thoughtbot/refills/master/source/images/textures/inverted/white_texture.png"), -webkit-linear-gradient(180deg, white, #cccccc), center no-repeat white scroll;
+  background: url("https://raw.githubusercontent.com/thoughtbot/refills/master/source/images/textures/inverted/white_texture.png"), linear-gradient(180deg, white, #cccccc), center no-repeat white scroll;
 }
 
 /* line 6, sass/_partials/_contact.scss */
@@ -1757,6 +1779,22 @@ svg#brander path {
   bottom: -8px;
   left: -8px;
   border-radius: 50%;
+}
+
+/* line 3, sass/_partials/_home-specific.scss */
+.texture {
+  height: 100%;
+  width: 100%;
+}
+/* line 8, sass/_partials/_home-specific.scss */
+.texture .texture-normal {
+  background: url("https://raw.githubusercontent.com/thoughtbot/refills/master/source/images/textures/white_texture.png"), -webkit-linear-gradient(180deg, white, #cccccc), center no-repeat white scroll;
+  background: url("https://raw.githubusercontent.com/thoughtbot/refills/master/source/images/textures/white_texture.png"), linear-gradient(180deg, white, #cccccc), center no-repeat white scroll;
+}
+/* line 13, sass/_partials/_home-specific.scss */
+.texture .texture-inverted {
+  background: url("https://raw.githubusercontent.com/thoughtbot/refills/master/source/images/textures/inverted/white_texture.png"), -webkit-linear-gradient(180deg, white, #cccccc), center no-repeat white scroll;
+  background: url("https://raw.githubusercontent.com/thoughtbot/refills/master/source/images/textures/inverted/white_texture.png"), linear-gradient(180deg, white, #cccccc), center no-repeat white scroll;
 }
 
 /* line 4, sass/_partials/_brand_overview.scss */
