@@ -23,6 +23,21 @@ get_header(); ?>
 		  </div>
 		</div>
 
+		<div class="hover-tile-outer betro_overview">
+			<a href="<?php echo get_page_link( get_page_by_title( "betro simone" )->ID ); ?>"></a>
+		  <div class="hover-tile-container">
+		    <div class="hover-tile hover-tile-visible">
+		    	<div class="hover-logo">
+		      		<img src="<?php bloginfo('template_directory'); ?>/images/brand/betro_brand_white.svg" class="" />
+		      	</div>
+		    </div>
+		    <div class="hover-tile hover-tile-hidden">
+		      <h4>Betro Simone</h4>
+		      <p></p>
+		    </div>
+		  </div>
+		</div>
+
 		<div class="hover-tile-outer caelum_overview">
 			<a href="<?php echo get_page_link( get_page_by_title( "caelum" )->ID ); ?>"></a>
 		  <div class="hover-tile-container">
