@@ -22,7 +22,7 @@ get_header(); ?>
 			</div>
 		</section>
       
-	      <section class="module parallax_brand parallax-3">
+	      <section class="module parallax_brand parallax-3bxw">
 	        <div class="empty_container">
 	          
 	        </div>

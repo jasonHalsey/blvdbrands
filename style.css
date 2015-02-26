@@ -1014,7 +1014,7 @@ html, body {
 
 /* line 23, sass/_partials/_footer.scss */
 .footer-2 {
-  background: #2a2a2a;
+  background: #000;
   padding: 2.5em 1.25em 1.25em;
   width: 100%;
 }
@@ -1239,40 +1239,45 @@ section.module.parallax-2 {
 
 /* line 84, sass/_partials/_parallax.scss */
 section.module.parallax-3 {
-  background-image: url("images/brand/ONE_BXWD_main.jpg");
+  background-image: url("images/brand/onebxwd_scroll.jpg");
 }
 
 /* line 87, sass/_partials/_parallax.scss */
+section.module.parallax-3bxw {
+  background-image: url("images/brand/ONE_BXWD_main.jpg");
+}
+
+/* line 90, sass/_partials/_parallax.scss */
 section.module.parallax-4 {
   background-image: url("images/brand/pasion_main.jpg");
 }
 
-/* line 90, sass/_partials/_parallax.scss */
+/* line 93, sass/_partials/_parallax.scss */
 section.module.parallax-4-pt {
   background-image: url("images/brand/pasion_scroll.jpg");
 }
 
-/* line 93, sass/_partials/_parallax.scss */
+/* line 96, sass/_partials/_parallax.scss */
 section.module.parallax-5 {
   background-image: url("images/brand/dg_scroll.jpg");
 }
 
-/* line 96, sass/_partials/_parallax.scss */
+/* line 99, sass/_partials/_parallax.scss */
 section.module.parallax-5dg {
   background-image: url("images/brand/dg_scroll_brand.jpg");
 }
 
-/* line 99, sass/_partials/_parallax.scss */
+/* line 102, sass/_partials/_parallax.scss */
 section.module.parallax-bs {
   background-image: url("images/brand/bs_scroll.jpg");
 }
 
-/* line 102, sass/_partials/_parallax.scss */
+/* line 105, sass/_partials/_parallax.scss */
 section.module.parallax-story {
   background-image: url("images/storypage_scroll.jpg");
 }
 
-/* line 106, sass/_partials/_parallax.scss */
+/* line 109, sass/_partials/_parallax.scss */
 div.home_container, div.home_container_onebxwd {
   width: 100%;
   height: 100%;
@@ -1282,31 +1287,31 @@ div.home_container, div.home_container_onebxwd {
   display: table-cell;
   vertical-align: middle;
 }
-/* line 114, sass/_partials/_parallax.scss */
+/* line 117, sass/_partials/_parallax.scss */
 div.home_container img, div.home_container_onebxwd img {
   margin: 0 auto;
 }
 
-/* line 122, sass/_partials/_parallax.scss */
+/* line 125, sass/_partials/_parallax.scss */
 div.home_container_onebxwd img {
   margin: 0px auto 0;
 }
 
-/* line 127, sass/_partials/_parallax.scss */
+/* line 130, sass/_partials/_parallax.scss */
 div.container {
   width: 100%;
   height: 100%;
   margin: 0 auto;
   text-align: center;
 }
-/* line 132, sass/_partials/_parallax.scss */
+/* line 135, sass/_partials/_parallax.scss */
 div.container img {
   margin: 0 auto;
   width: 100%;
   height: auto;
 }
 
-/* line 140, sass/_partials/_parallax.scss */
+/* line 143, sass/_partials/_parallax.scss */
 div.empty_container {
   width: 100%;
   height: auto;
@@ -1315,12 +1320,12 @@ div.empty_container {
   margin: 0 auto;
   text-align: center;
 }
-/* line 147, sass/_partials/_parallax.scss */
+/* line 150, sass/_partials/_parallax.scss */
 div.empty_container img {
   margin: 0 auto;
 }
 
-/* line 153, sass/_partials/_parallax.scss */
+/* line 156, sass/_partials/_parallax.scss */
 .shadowed {
   -webkit-filter: drop-shadow(4px 4px 2px rgba(0, 0, 0, 0.7));
   filter: url(shadow.svg#drop-shadow);
@@ -1329,7 +1334,7 @@ div.empty_container img {
   transition: 0.75s;
 }
 
-/* line 162, sass/_partials/_parallax.scss */
+/* line 165, sass/_partials/_parallax.scss */
 section.module_brand.content_brand {
   background-color: #fff;
   color: #000;
@@ -1338,7 +1343,7 @@ section.module_brand.content_brand {
   z-index: 200;
 }
 
-/* line 170, sass/_partials/_parallax.scss */
+/* line 173, sass/_partials/_parallax.scss */
 div.brand-content-wrapper {
   height: 200px;
   max-width: 68em;
@@ -1353,23 +1358,23 @@ div.brand-content-wrapper:after {
   clear: both;
 }
 
-/* line 175, sass/_partials/_parallax.scss */
+/* line 178, sass/_partials/_parallax.scss */
 div.brand-content {
   display: table-cell;
   vertical-align: middle;
   padding-bottom: 2.0em;
 }
-/* line 179, sass/_partials/_parallax.scss */
+/* line 182, sass/_partials/_parallax.scss */
 div.brand-content p {
   color: #666;
   line-height: 2.85em;
   padding: 0 0.75em;
 }
-/* line 183, sass/_partials/_parallax.scss */
+/* line 186, sass/_partials/_parallax.scss */
 div.brand-content p:first-child {
   margin-top: 0.75em;
 }
-/* line 187, sass/_partials/_parallax.scss */
+/* line 190, sass/_partials/_parallax.scss */
 div.brand-content h1 {
   font-family: "proxima-nova",sans-serif;
   color: #666;
@@ -1378,7 +1383,7 @@ div.brand-content h1 {
   text-transform: uppercase;
 }
 
-/* line 195, sass/_partials/_parallax.scss */
+/* line 198, sass/_partials/_parallax.scss */
 section.module.parallax_brand {
   height: 600px;
   background-position: 50% 50%;
@@ -1390,40 +1395,40 @@ section.module.parallax_brand {
   background-size: cover;
 }
 @media screen and (max-width: 979px) {
-  /* line 195, sass/_partials/_parallax.scss */
+  /* line 198, sass/_partials/_parallax.scss */
   section.module.parallax_brand {
     height: 300px;
   }
 }
 
-/* line 210, sass/_partials/_parallax.scss */
+/* line 213, sass/_partials/_parallax.scss */
 div.abbot_top p {
   margin-bottom: 0;
   padding: 0.5em 2.0em 1.5em;
 }
-/* line 214, sass/_partials/_parallax.scss */
+/* line 217, sass/_partials/_parallax.scss */
 div.abbot_top p:last-child {
   padding: 0.5em 2.0em 2.0em;
 }
 
 @media all and (min-width: 600px) {
-  /* line 220, sass/_partials/_parallax.scss */
+  /* line 223, sass/_partials/_parallax.scss */
   section.module h2 {
     font-size: 42px;
   }
 
-  /* line 223, sass/_partials/_parallax.scss */
+  /* line 226, sass/_partials/_parallax.scss */
   section.module p {
     font-size: 20px;
   }
 
-  /* line 226, sass/_partials/_parallax.scss */
+  /* line 229, sass/_partials/_parallax.scss */
   section.module.parallax h1 {
     font-size: 96px;
   }
 }
 @media all and (min-width: 960px) {
-  /* line 231, sass/_partials/_parallax.scss */
+  /* line 234, sass/_partials/_parallax.scss */
   section.module.parallax h1 {
     font-size: 160px;
   }
