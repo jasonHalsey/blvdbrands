@@ -39,7 +39,12 @@ get_header(); ?>
           <a href="<?php echo get_page_link( get_page_by_title( "dylangeorge" )->ID ); ?>"><img src="<?php bloginfo('template_directory'); ?>/images/brand/dg_brand_scroll.svg" class="" id="drop-shadow"/></a>
         </div>
       </section>
- 
+
+      <section class="module parallax parallax-bs">
+        <div class="home_container">
+         <a href="<?php echo get_page_link( get_page_by_title( "betro simone" )->ID ); ?>"><img src="<?php bloginfo('template_directory'); ?>/images/brand/betro_brand_white.svg" class="" id="drop-shadow"/></a>
+        </div>
+      </section>
 
       <section class="module parallax parallax-4">
         <div class="home_container">
@@ -47,11 +52,6 @@ get_header(); ?>
         </div>
       </section>
 
-      <section class="module parallax parallax-bs">
-        <div class="home_container">
-         <a href="<?php echo get_page_link( get_page_by_title( "betro simone" )->ID ); ?>"><img src="<?php bloginfo('template_directory'); ?>/images/brand/betro_brand_white.svg" class="" id="drop-shadow"/></a>
-        </div>
-      </section>
 
   </main><!-- /main -->
 

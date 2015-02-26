@@ -14,6 +14,7 @@ get_header(); ?>
 				<img src="<?php bloginfo('template_directory'); ?>/images/brand/bs_static.jpg" /></a>
 				<div class="brand-content-wrapper">
 					<div class="brand-content">
+						<h1>Betro Simone</h1>
 						<p>Influenced by clean modern lines of the 90s, Betro embodies chic sophistication in an effortless and timeless way. Individually hand-dyed and eco-friendly, Betro Simone seamlessly fuses luxurious modal and novelty knits into effortless bodies and classic silhouettes. The collection draws an eclectic mix of inspiration from water color paintings, granite to galaxy clusters and geodes. Artisanal washes of marbleized, ombre, splatter, woodgrain elements are featured on an array of breezy dresses and separates. Creating optimal drape and movement, woven rayon remains a signature Betro Simone fabric while incorporating light weight modal spandex, sweater knit, bamboo baby, french terry in subtle shades, creating an organic tonal texture throughout the collection.</p>
 	         	 	</div>
 	         	 </div>

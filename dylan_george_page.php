@@ -14,6 +14,7 @@ get_header(); ?>
 				<img src="<?php bloginfo('template_directory'); ?>/images/brand/dg_static.jpg" /></a>
 				<div class="brand-content-wrapper">
 					<div class="brand-content">
+						<h1>Dylan George</h1>
 						<p>Dylan George is a premium denim line that establishes a new standard of apparel by marrying exquisite fabrics and handcrafted finishes with innovative, fashion-forward designs and an ultra-flattering fit. Details ranging from coatings, to leather piecing, to a unique stretch, selvedge fabrication combine to create a collection that flawlessly mixes the best of casual California style with the luxury for which the Dylan George brand is known. </p>
 	         	 	</div>
 	         	 </div>
