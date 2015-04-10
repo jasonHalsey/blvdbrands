@@ -98,12 +98,12 @@ get_header(); ?>
 		  </div>
 		</div>
 
-		<div class="hover-tile-outer blvd_overview">
-			<a href="<?php bloginfo('url');?>"></a>
+		<!-- <div class="hover-tile-outer blvd_overview">
+			<a href="<?#php bloginfo('url');?>"></a>
 		  <div class="hover-tile-container">
 		    <div class="hover-tile hover-tile-visible">
 		    	<div class="hover-logo">
-			      <img src="<?php bloginfo('template_directory'); ?>/images/blvd_brands_logo.png" class="" />
+			      <img src="<?#php bloginfo('template_directory'); ?>/images/blvd_brands_logo.png" class="" />
 			    </div>
 		    </div>
 		    <div class="hover-tile hover-tile-hidden">
@@ -112,7 +112,7 @@ get_header(); ?>
 		    </div>
 		  </div>
 		</div>
-
+ -->
 	</div><!-- end .brand-container -->
 
 
